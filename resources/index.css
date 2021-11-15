@@ -21,7 +21,12 @@ button:active{
 #img-modo {
     content: url(../includes/botones/normal/MODO\ NORMAL.png);
 }
-
+#img-info-mecanica {
+    content: url(../includes/botones/normal/INF\ MECANICA.png)
+}
+#img-info-historia {
+    content: url(../includes/botones/normal/HISTORIA\ NORMAL.png)
+}
 /*HOVER POR SI SE QUIEREN USAR
 
 #img-info:hover{
