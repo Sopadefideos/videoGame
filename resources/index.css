@@ -64,7 +64,32 @@ button:active{
     width: 3vw;
     height: 3vh;
 }
-  
+
+#img-modo-vs{
+    content: url(../includes/botones/normal/VS\ NORMAL.png);
+}
+#img-modo-arcade{
+    content: url(../includes/botones/normal/ARCADE\ NORMAL.png);
+}
+#img-modo-cooperativo{
+    content: url(../includes/botones/normal/COOPERATIVO\ NORMAL.png);
+}
+#img-modo-torneo{
+    content: url(../includes/botones/normal/TORNEO\ NORMAL.png);
+}
+
+#btn-modo-vs:focus img{
+    content: url(../includes/botones/active/VS\ PUSH.png);
+}
+#btn-modo-arcade:focus img{
+    content: url(../includes/botones/active/ARCADE\ PUSH.png);
+}
+#btn-modo-cooperativo:focus img{
+    content: url(../includes/botones/active/COOPERATIVO\ PUSH.png);
+}
+#btn-modo-torneo:focus img{
+    content: url(../includes/botones/active/TORNEO\ PUSH.png);
+}
  /* button:active {
     color: var(--drk-pink);
   }
