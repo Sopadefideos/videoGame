@@ -85,6 +85,16 @@ button:active{
 #btn-modo-torneo:focus img{
     content: url(../includes/botones/active/TORNEO\ PUSH.png);
 }
+.modal.fade .modal-dialog {
+    -webkit-transition: -webkit-transform 0.3s ease-out;
+       -moz-transition: -moz-transform 0.3s ease-out;
+         -o-transition: -o-transform 0.3s ease-out;
+            transition: transform 0.3s ease-out;
+  }
+  
+  .modal.in .modal-dialog {
+  
+  }
  /* button:active {
     color: var(--drk-pink);
   }
