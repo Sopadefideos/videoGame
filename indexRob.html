@@ -40,9 +40,21 @@
                   <button type="button" class="btn rounded-pill btn-warning"id="btn-escn" > <img alt="" class="img-fluid" id="img-escn"/></button>
                 </div> 
 
-                <div class="col-md-2 col-7">
-                  <button type="button" class="btn rounded-pill btn-warning" id="btn-modo" data-bs-toggle="collapse"> <img alt="" class="img-fluid" id="img-modo"/></button>
-                </div>                             
+                
+                    <div class="col-md-2 col-7">
+                        <div class="dropdown">
+                            <button type="button" class="btn rounded-pill btn-warning" id="btn-modo" data-bs-toggle="dropdown" aria-expanded="false"/>
+                                <img alt="" class="img-fluid" id="img-modo"/>
+                            </button>
+                            <ul class="dropdown-menu mt-3 border-0" aria-labelledby="btn-modo">
+                                <li><button type="button" class="btn rounded-pill btn-warning mb-1" id="btn-modo-vs"><img alt="" class="img-fluid" id="img-modo-vs"/></button></li>
+                                <li><button type="button" class="btn rounded-pill btn-warning mb-1" id="btn-modo-arcade"><img alt="" class="img-fluid" id="img-modo-arcade"/></button></li>
+                                <li><button type="button" class="btn rounded-pill btn-warning mb-1" id="btn-modo-cooperativo"><img alt="" class="img-fluid" id="img-modo-cooperativo"/></button></li>
+                                <li><button type="button" class="btn rounded-pill btn-warning mb-1" id="btn-modo-torneo"><img alt="" class="img-fluid" id="img-modo-torneo"/></button></li>
+                            </ul>
+                        </div>
+                    </div>  
+                
               </div>
             </div>
 
@@ -71,6 +83,13 @@
           </div>           
         </div>
       </nav>
+      <div style="min-height: 120px;">
+        <div class="collapse collapse-horizontal" id="collapseWidthExample">
+            <div class="card card-body" style="width: 300px;">
+                This is some placeholder content for a horizontal collapse. It's hidden by default and shown when triggered.
+            </div>
+        </div>
+    </div>
 
 
 
