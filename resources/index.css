@@ -56,6 +56,11 @@ button:active{
 #btn-modo:focus img {
     content: url(../includes/botones/active/MODO\ PUSH.png);
 }
+#btm-info:focus img {
+    content: url(../includes/botones/active/INFORMACION\ PUSH.png)
+}
+
+
 
 .idiomas{
     display: flex;    
@@ -89,6 +94,12 @@ button:active{
 }
 #btn-modo-torneo:focus img{
     content: url(../includes/botones/active/TORNEO\ PUSH.png);
+}
+#btn-info-mecanica:focus img{
+    content: url(../includes/botones/active/INF\ MECANICA\ PUSH.png);
+}
+#btn-info-historia:focus img{
+    content: url(../includes/botones/active/HISTORIA\ PUSH.png);
 }
  /* button:active {
     color: var(--drk-pink);

@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="en">
-<!-- probando -->
 
 <head>
   <meta charset="utf-8">
@@ -14,14 +13,16 @@
   <title>Fight in Time</title>
 </head>
 
-<body>
+<body class="bg-dark">
 
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
+
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
         aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+
       <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
 
         <div class="col-md-1 col-7 ">
@@ -33,18 +34,19 @@
           <div class="row justify-content-md-center">
             <div class="col-md-2 col-7">
               <div class="dropdown">
-                <button type="button" class="btn rounded-pill btn-warning" id="btn-modo" data-bs-toggle="dropdown"
+                <button type="button" class="btn rounded-pill btn-warning" id="btn-info" data-bs-toggle="dropdown"
                   aria-expanded="false" />
                 <img alt="" class="img-fluid" id="img-info" />
                 </button>
-                <ul class="dropdown-menu mt-3 border-0" aria-labelledby="btn-modo">
-                  <li><button type="button" class="btn rounded-pill btn-warning mb-1"><img alt="" class="img-fluid"
-                        id="img-info-mecanica" /></button></li>
-                  <li><button type="button" class="btn rounded-pill btn-warning mb-1"><img alt="" class="img-fluid"
-                        id="img-info-historia" /></button></li>
+                <ul class="dropdown-menu mt-3 border-0" aria-labelledby="btn-info">
+                  <li><button type="button" class="btn rounded-pill btn-warning mb-1" id="btn-info-mecanica"><img alt=""
+                        class="img-fluid" id="img-info-mecanica" /></button></li>
+                  <li><button type="button" class="btn rounded-pill btn-warning mb-1" id="btn-info-historia"><img alt=""
+                        class="img-fluid" id="img-info-historia" /></button></li>
                 </ul>
               </div>
             </div>
+
             <div class="col-md-2 col-7">
               <button type="button" class="btn rounded-pill btn-warning" id="btn-pjs"> <img alt="" class="img-fluid"
                   id="img-pjs" /></button>
@@ -55,10 +57,26 @@
                   id="img-escn" /></button>
             </div>
 
+
             <div class="col-md-2 col-7">
-              <button type="button" class="btn rounded-pill btn-warning" id="btn-modo"> <img alt="" class="img-fluid"
-                  id="img-modo" /></button>
+              <div class="dropdown">
+                <button type="button" class="btn rounded-pill btn-warning" id="btn-modo" data-bs-toggle="dropdown"
+                  aria-expanded="false" />
+                <img alt="" class="img-fluid" id="img-modo" />
+                </button>
+                <ul class="dropdown-menu mt-3 border-0" aria-labelledby="btn-modo">
+                  <li><button type="button" class="btn rounded-pill btn-warning mb-1" id="btn-modo-vs"><img alt=""
+                        class="img-fluid" id="img-modo-vs" /></button></li>
+                  <li><button type="button" class="btn rounded-pill btn-warning mb-1" id="btn-modo-arcade"><img alt=""
+                        class="img-fluid" id="img-modo-arcade" /></button></li>
+                  <li><button type="button" class="btn rounded-pill btn-warning mb-1" id="btn-modo-cooperativo"><img
+                        alt="" class="img-fluid" id="img-modo-cooperativo" /></button></li>
+                  <li><button type="button" class="btn rounded-pill btn-warning mb-1" id="btn-modo-torneo"><img alt=""
+                        class="img-fluid" id="img-modo-torneo" /></button></li>
+                </ul>
+              </div>
             </div>
+
           </div>
         </div>
 
@@ -87,17 +105,50 @@
         </div>
 
         <div class="col-md-2 col-7 ">
-          <button type="button" class="btn"><img src="includes/botones/icoin.gif" alt="" class="img-fluid"></button>
+          <button data-bs-toggle="modal" data-bs-target="#exampleModal" type="button" class="btn"><img
+              src="includes/botones/icoin.gif" alt="" class="img-fluid"></button>
         </div>
       </div>
     </div>
   </nav>
+  <div style="min-height: 120px;">
+    <div class="collapse collapse-horizontal" id="collapseWidthExample">
+      <div class="card card-body" style="width: 300px;">
+        This is some placeholder content for a horizontal collapse. It's hidden by default and shown when triggered.
+      </div>
+    </div>
+  </div>
 
 
+
+  <!-- Modal -->
+  <div width="100%" height="600" class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-xl" width="100%" height="600">
+      <div class="modal-content">
+        <iframe class="bg-transparent" width="100%" height="600" src="https://www.youtube.com/embed/YE7VzlLtp-4"
+          frameborder="0" allowfullscreen></iframe>
+
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
   <script src="resources/index.js"></script>
+
+  <script type="text/javascript">
+
+    document.getElementById("btn-info-mecanica").onclick = function () {
+      location.href = "/mecanica";
+    };
+    document.getElementById("btn-info-historia").onclick = function () {
+      location.href = "/historia";
+    };
+
+  </script>
 </body>
 
 </html>
