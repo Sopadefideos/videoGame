@@ -95,6 +95,88 @@ button:active{
   .modal.in .modal-dialog {
   
   }
+/*#cajaHabilidades{
+    position: relative;
+}*/
+#img-circulo{
+    
+    content: url(../resources/BOTONES\ APARTADO\ PERSONAJE/BOTONES_PJ/CIRCULO_GIRATORIO_SIN_BASE.gif);
+   
+
+    
+}
+
+.img-pj-test{
+    content: url(../resources/BOTONES\ APARTADO\ PERSONAJE/BOTONES_PJ/inactivoPalitoAbajo.png);
+    transition: all 2s ease;
+}
+#btn-pj-1:focus img {
+    content: url(../resources/BOTONES\ APARTADO\ PERSONAJE/BOTONES_PJ/BOTON_ACTIVO_PERSONAJE_SUPERIOR-02.png);
+    transition: all 2s ease;
+}
+#btn-pj-2:focus img {
+    content: url(../resources/BOTONES\ APARTADO\ PERSONAJE/BOTONES_PJ/BOTON_ACTIVO_PERSONAJE_SUPERIOR-02.png);
+    transition: all 2s ease;
+}
+#btn-pj-3:focus img {
+    content: url(../resources/BOTONES\ APARTADO\ PERSONAJE/BOTONES_PJ/BOTON_ACTIVO_PERSONAJE_SUPERIOR-02.png);
+    transition: all 2s ease;
+}
+#btn-pj-4:focus img {
+    content: url(../resources/BOTONES\ APARTADO\ PERSONAJE/BOTONES_PJ/BOTON_ACTIVO_PERSONAJE_SUPERIOR-02.png);
+    transition: all 2s ease;
+}
+#btn-pj-5:focus img {
+    content: url(../resources/BOTONES\ APARTADO\ PERSONAJE/BOTONES_PJ/BOTON_ACTIVO_PERSONAJE_SUPERIOR-02.png);
+    transition: all 2s ease;
+}
+#btn-pj-6:focus img {
+    content: url(../resources/BOTONES\ APARTADO\ PERSONAJE/BOTONES_PJ/BOTON_ACTIVO_PERSONAJE_INFERIOR.png);
+    transition: all 2s ease;
+}
+#btn-pj-7:focus img {
+    content: url(../resources/BOTONES\ APARTADO\ PERSONAJE/BOTONES_PJ/BOTON_ACTIVO_PERSONAJE_INFERIOR.png);
+    transition: all 2s ease;
+}
+#btn-pj-8:focus img {
+    content: url(../resources/BOTONES\ APARTADO\ PERSONAJE/BOTONES_PJ/BOTON_ACTIVO_PERSONAJE_INFERIOR.png);
+    transition: all 2s ease;
+}
+#btn-pj-9:focus img {
+    content: url(../resources/BOTONES\ APARTADO\ PERSONAJE/BOTONES_PJ/BOTON_ACTIVO_PERSONAJE_INFERIOR.png);
+    transition: all 2s ease;
+}
+#btn-pj-10:focus img {
+    content: url(../resources/BOTONES\ APARTADO\ PERSONAJE/BOTONES_PJ/BOTON_ACTIVO_PERSONAJE_INFERIOR.png);
+    transition: all 2s ease;
+}
+
+button img{
+    transition: all 5s ease;
+}
+
+
+.img-pj-test2{
+    content: url(../resources/BOTONES\ APARTADO\ PERSONAJE/BOTONES_PJ/inactivoPalitoArriba.png);
+    
+    
+}
+
+.relleno{
+    content: url(../resources/BOTONES\ APARTADO\ PERSONAJE/BOTONES_PJ/relleno.png);
+    display: none;
+}
+
+
+/*#caja-personajes-uno{
+    float: none;
+    position: absolute;
+    left: 7em;
+    top: 4.7em;
+    z-index: 1000;
+    background-color: #92AD40;
+
+}*/
  /* button:active {
     color: var(--drk-pink);
   }
