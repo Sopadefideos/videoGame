@@ -1,25 +1,44 @@
-<!DOCTYPE html> 
-<html> 
-<body> 
-
-<input onclick="setHalfVolume()" type="image" src="includes/botones/active/CON SONIDO.png" name="submit" alt="submit"/>
-<input  onclick="setFullVolume()" type="image" src="includes/botones/normal/SIN SONIDO.png" name="submit"  alt="submit"/>
-<audio id="demo" autoplay loop>
-  <source  src="http://upload.wikimedia.org/wikipedia/en/9/9f/Sample_of_%22Another_Day_in_Paradise%22.ogg" type="audio/ogg">
-  Your browser does not support the audio element.
-</audio>
-
-<script>
-var vid = document.getElementById("demo");
-
-function setHalfVolume() { 
-  vid.volume = 0;
-} 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id="Div1">
+    <input onclick="setHalfVolume(); switchVisible();" type="image" src="includes/botones/active/CON SONIDO.png" name="submit" alt="submit"/>
+  </div>
+  <div style="display: none;" id="Div2">
+    <input  onclick="setFullVolume(); switchVisible();" type="image" src="includes/botones/normal/SIN SONIDO.png" name="submit"  alt="submit"/>
+  </div>
   
-function setFullVolume() { 
-  vid.volume = 1.0;
-} 
-</script> 
-
-</body> 
+  <audio id="demo" autoplay loop>
+    <source  src="http://upload.wikimedia.org/wikipedia/en/9/9f/Sample_of_%22Another_Day_in_Paradise%22.ogg" type="audio/ogg">
+  </audio>
+  
+  <script>
+  var vid = document.getElementById("demo");
+  
+  function setHalfVolume() { 
+    vid.volume = 0;
+  } 
+    
+  function setFullVolume() { 
+    vid.volume = 1.0;
+  }
+  function switchVisible() {
+    if (document.getElementById('Div1')) {
+      if (document.getElementById('Div1').style.display == 'none') {
+        document.getElementById('Div1').style.display = 'block';
+        document.getElementById('Div2').style.display = 'none';
+      }else {
+        document.getElementById('Div1').style.display = 'none';
+        document.getElementById('Div2').style.display = 'block';
+      }
+    }
+  }
+  </script>
+</body>
 </html>
