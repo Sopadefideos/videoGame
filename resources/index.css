@@ -183,15 +183,24 @@ button img{
 #cajaCirculo{
     margin-left: 15%;
 }
-#raya{
-    width: 108%
-}
+
 #cajaDescripcion{
     font-family: 'Mohave', sans-serif;
     font-size: 1.4em;
 }
 #columnaBotones{
-    margin-left: 10%;
+    margin-left: 7%;
+}
+
+#botonesArriba{
+    
+}
+#raya{
+    position: absolute;
+    width: 60%;
+    margin-left: -5%;
+    margin-top: 0.1%;
+    height: 0.2vh;
 }
 #parrafoHabilidades{
     font-family: 'spider_homeregular' ;
