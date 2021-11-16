@@ -1,3 +1,9 @@
+body{
+    background-image: url(./../includes/FONDO_WEB\ \(1\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
 button{
     padding: 0!important;
     
@@ -101,6 +107,127 @@ button:active{
 #btn-info-historia:focus img{
     content: url(../includes/botones/active/HISTORIA\ PUSH.png);
 }
+.modal.fade .modal-dialog {
+    -webkit-transition: -webkit-transform 0.3s ease-out;
+       -moz-transition: -moz-transform 0.3s ease-out;
+         -o-transition: -o-transform 0.3s ease-out;
+            transition: transform 0.3s ease-out;
+  }
+  
+  /* .modal.in .modal-dialog {
+  
+  } */
+/*#cajaHabilidades{
+    position: relative;
+}*/
+#img-circulo{
+    position: relative;
+    top: 0;
+    /* left: ; */
+    content: url(../resources/Sin-título-1.gif);
+   
+
+    
+}
+#fotoPJ{
+    position: absolute;
+    left: 30%;
+    bottom: 5%;
+    content: url(./../includes/idle-calabaza.gif)
+}
+
+.img-pj-test{
+    content: url(../resources/BOTONES\ APARTADO\ PERSONAJE/BOTONES_PJ/inactivoPalitoAbajo.png);
+    transition: all 2s ease;
+}
+#btn-pj-1:focus img {
+    content: url(../resources/BOTONES\ APARTADO\ PERSONAJE/BOTONES_PJ/BOTON_ACTIVO_PERSONAJE_SUPERIOR-02.png);
+    transition: all 2s ease;
+}
+#btn-pj-2:focus img {
+    content: url(../resources/BOTONES\ APARTADO\ PERSONAJE/BOTONES_PJ/BOTON_ACTIVO_PERSONAJE_SUPERIOR-02.png);
+    transition: all 2s ease;
+}
+#btn-pj-3:focus img {
+    content: url(../resources/BOTONES\ APARTADO\ PERSONAJE/BOTONES_PJ/BOTON_ACTIVO_PERSONAJE_SUPERIOR-02.png);
+    transition: all 2s ease;
+}
+#btn-pj-4:focus img {
+    content: url(../resources/BOTONES\ APARTADO\ PERSONAJE/BOTONES_PJ/BOTON_ACTIVO_PERSONAJE_SUPERIOR-02.png);
+    transition: all 2s ease;
+}
+#btn-pj-5:focus img {
+    content: url(../resources/BOTONES\ APARTADO\ PERSONAJE/BOTONES_PJ/BOTON_ACTIVO_PERSONAJE_SUPERIOR-02.png);
+    transition: all 2s ease;
+}
+#btn-pj-6:focus img {
+    content: url(../resources/BOTONES\ APARTADO\ PERSONAJE/BOTONES_PJ/BOTON_ACTIVO_PERSONAJE_INFERIOR.png);
+    transition: all 2s ease;
+}
+#btn-pj-7:focus img {
+    content: url(../resources/BOTONES\ APARTADO\ PERSONAJE/BOTONES_PJ/BOTON_ACTIVO_PERSONAJE_INFERIOR.png);
+    transition: all 2s ease;
+}
+#btn-pj-8:focus img {
+    content: url(../resources/BOTONES\ APARTADO\ PERSONAJE/BOTONES_PJ/BOTON_ACTIVO_PERSONAJE_INFERIOR.png);
+    transition: all 2s ease;
+}
+#btn-pj-9:focus img {
+    content: url(../resources/BOTONES\ APARTADO\ PERSONAJE/BOTONES_PJ/BOTON_ACTIVO_PERSONAJE_INFERIOR.png);
+    transition: all 2s ease;
+}
+#btn-pj-10:focus img {
+    content: url(../resources/BOTONES\ APARTADO\ PERSONAJE/BOTONES_PJ/BOTON_ACTIVO_PERSONAJE_INFERIOR.png);
+    transition: all 2s ease;
+}
+
+button img{
+    transition: all 5s ease;
+}
+
+
+.img-pj-test2{
+    content: url(../resources/BOTONES\ APARTADO\ PERSONAJE/BOTONES_PJ/inactivoPalitoArriba.png);
+    
+    
+}
+
+.relleno{
+    content: url(../resources/BOTONES\ APARTADO\ PERSONAJE/BOTONES_PJ/relleno.png);
+    display: none;
+}
+#cajaCirculo{
+    margin-left: 15%;
+}
+#raya{
+    width: 108%
+}
+#cajaDescripcion{
+    font-family: 'Mohave', sans-serif;
+    font-size: 1.4em;
+}
+#columnaBotones{
+    margin-left: 10%;
+}
+#parrafoHabilidades{
+    font-family: 'spider_homeregular' ;
+    font-size: 2em;
+}
+#parrafoNombre{
+    font-family:'candy_beansregular';
+    font-size: 2em;
+}
+
+
+/*#caja-personajes-uno{
+    float: none;
+    position: absolute;
+    left: 7em;
+    top: 4.7em;
+    z-index: 1000;
+    background-color: #92AD40;
+
+}*/
  /* button:active {
     color: var(--drk-pink);
   }
@@ -108,3 +235,20 @@ button:active{
   button:active i {
     background-color: var(--drk-pink);
   }*/
+
+
+  .escenario {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.image1 {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.image2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
