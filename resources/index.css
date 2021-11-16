@@ -1,3 +1,9 @@
+body{
+    background-image: url(./../includes/FONDO_WEB\ \(1\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
 button{
     padding: 0!important;
     
@@ -99,11 +105,19 @@ button:active{
     position: relative;
 }*/
 #img-circulo{
-    
-    content: url(../resources/BOTONES\ APARTADO\ PERSONAJE/BOTONES_PJ/CIRCULO_GIRATORIO_SIN_BASE.gif);
+    position: relative;
+    top: 0;
+    left: ;
+    content: url(../resources/Sin-título-1.gif);
    
 
     
+}
+#fotoPJ{
+    position: absolute;
+    left: 30%;
+    bottom: 5%;
+    content: url(./../includes/idle-calabaza.gif)
 }
 
 .img-pj-test{
@@ -166,6 +180,27 @@ button img{
     content: url(../resources/BOTONES\ APARTADO\ PERSONAJE/BOTONES_PJ/relleno.png);
     display: none;
 }
+#cajaCirculo{
+    margin-left: 15%;
+}
+#raya{
+    width: 108%
+}
+#cajaDescripcion{
+    font-family: 'Mohave', sans-serif;
+    font-size: 1.4em;
+}
+#columnaBotones{
+    margin-left: 10%;
+}
+#parrafoHabilidades{
+    font-family: 'spider_homeregular' ;
+    font-size: 2em;
+}
+#parrafoNombre{
+    font-family:'candy_beansregular';
+    font-size: 2em;
+}
 
 
 /*#caja-personajes-uno{
@@ -184,3 +219,20 @@ button img{
   button:active i {
     background-color: var(--drk-pink);
   }*/
+
+
+  .escenario {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.image1 {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.image2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
