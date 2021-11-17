@@ -131,48 +131,84 @@ button:active{
     content: url(./../includes/idle-calabaza.gif)
 }
 
-.img-pj-test{
-    content: url(../resources/BOTONES\ APARTADO\ PERSONAJE/BOTONES_PJ/inactivoPalitoAbajo.png);
+#img-pj-1{
+    content: url(../includes/BOTONES\ APARTADO\ ESCENARIO/BOTON_DESACTIVADO_PERSONAJE_INFERIOR_ARPIA.png);
+    transition: all 2s ease;
+}
+#img-pj-2{
+    content: url(../includes/BOTONES\ APARTADO\ ESCENARIO/BOTON_DESACTIVADO_PERSONAJE_INFERIOR_EXPLORADORA.png);
+    transition: all 2s ease;
+}
+#img-pj-3{
+    content: url(../includes/BOTONES\ APARTADO\ ESCENARIO/BOTON_DESACTIVADO_PERSONAJE_INFERIOR_MRBOCETO.png);
+    transition: all 2s ease;
+}
+#img-pj-4{
+    content: url(../includes/BOTONES\ APARTADO\ ESCENARIO/BOTON_DESACTIVADO_PERSONAJE_INFERIOR_ROBOT.png);
+    transition: all 2s ease;
+}
+#img-pj-5{
+    content: url(../includes/BOTONES\ APARTADO\ ESCENARIO/BOTON_DESACTIVADO_PERSONAJE_INFERIOR_TIBURON.png);
     transition: all 2s ease;
 }
 #btn-pj-1:focus img {
-    content: url(../resources/BOTONES\ APARTADO\ PERSONAJE/BOTONES_PJ/BOTON_ACTIVO_PERSONAJE_SUPERIOR-02.png);
+    content: url(../includes/BOTONES\ APARTADO\ ESCENARIO/BOTON_ACTIVO_PERSONAJE_INFERIOR_ARPIA.png);
     transition: all 2s ease;
 }
 #btn-pj-2:focus img {
-    content: url(../resources/BOTONES\ APARTADO\ PERSONAJE/BOTONES_PJ/BOTON_ACTIVO_PERSONAJE_SUPERIOR-02.png);
+    content: url(../includes/BOTONES\ APARTADO\ ESCENARIO/BOTON_ACTIVO_PERSONAJE_INFERIOR_EXPLORADORA.png);
     transition: all 2s ease;
 }
 #btn-pj-3:focus img {
-    content: url(../resources/BOTONES\ APARTADO\ PERSONAJE/BOTONES_PJ/BOTON_ACTIVO_PERSONAJE_SUPERIOR-02.png);
+    content: url(../includes/BOTONES\ APARTADO\ ESCENARIO/BOTON_ACTIVO_PERSONAJE_INFERIOR_MRBOCETO.png);
     transition: all 2s ease;
 }
 #btn-pj-4:focus img {
-    content: url(../resources/BOTONES\ APARTADO\ PERSONAJE/BOTONES_PJ/BOTON_ACTIVO_PERSONAJE_SUPERIOR-02.png);
+    content: url(../includes/BOTONES\ APARTADO\ ESCENARIO/BOTON_ACTIVO_PERSONAJE_INFERIOR_ROBOT.png);
     transition: all 2s ease;
 }
 #btn-pj-5:focus img {
-    content: url(../resources/BOTONES\ APARTADO\ PERSONAJE/BOTONES_PJ/BOTON_ACTIVO_PERSONAJE_SUPERIOR-02.png);
+    content: url(../includes/BOTONES\ APARTADO\ ESCENARIO/BOTON_ACTIVO_PERSONAJE_INFERIOR_TIBURON.png);
+    transition: all 2s ease;
+}
+#img-pj-6{
+    content: url(../includes/BOTONES\ APARTADO\ ESCENARIO/BOTON_DESACTIVADO_PERSONAJE_INFERIOR_ALIEN.png);
+    transition: all 2s ease;
+}
+#img-pj-7{
+    content: url(../includes/BOTONES\ APARTADO\ ESCENARIO/BOTON_DESACTIVADO_PERSONAJE_INFERIOR_CABALLERO.png);
+    transition: all 2s ease;
+}
+#img-pj-8{
+    content: url(../includes/BOTONES\ APARTADO\ ESCENARIO/BOTON_DESACTIVADO_PERSONAJE_INFERIOR_CALABAZA.png);
+    transition: all 2s ease;
+}
+#img-pj-9{
+    content: url(../includes/BOTONES\ APARTADO\ ESCENARIO/BOTON_DESACTIVADO_PERSONAJE_INFERIOR_MONO.png);
+    transition: all 2s ease;
+}
+#img-pj-10{
+    content: url(../includes/BOTONES\ APARTADO\ ESCENARIO/BOTON_DESACTIVADO_PERSONAJE_INFERIOR_PIRATA.png);
     transition: all 2s ease;
 }
 #btn-pj-6:focus img {
-    content: url(../resources/BOTONES\ APARTADO\ PERSONAJE/BOTONES_PJ/BOTON_ACTIVO_PERSONAJE_INFERIOR.png);
+    content: url(../includes/BOTONES\ APARTADO\ ESCENARIO/BOTON_ACTIVO_PERSONAJE_INFERIOR_ALIEN.png);
     transition: all 2s ease;
 }
 #btn-pj-7:focus img {
-    content: url(../resources/BOTONES\ APARTADO\ PERSONAJE/BOTONES_PJ/BOTON_ACTIVO_PERSONAJE_INFERIOR.png);
+    content: url(../includes/BOTONES\ APARTADO\ ESCENARIO/BOTON_ACTIVO_PERSONAJE_INFERIOR_CABALLERO.png);
     transition: all 2s ease;
 }
 #btn-pj-8:focus img {
-    content: url(../resources/BOTONES\ APARTADO\ PERSONAJE/BOTONES_PJ/BOTON_ACTIVO_PERSONAJE_INFERIOR.png);
+    content: url(../includes/BOTONES\ APARTADO\ ESCENARIO/BOTON_ACTIVO_PERSONAJE_INFERIOR_CALABAZA.png);
     transition: all 2s ease;
 }
 #btn-pj-9:focus img {
-    content: url(../resources/BOTONES\ APARTADO\ PERSONAJE/BOTONES_PJ/BOTON_ACTIVO_PERSONAJE_INFERIOR.png);
+    content: url(../includes/BOTONES\ APARTADO\ ESCENARIO/BOTON_ACTIVO_PERSONAJE_INFERIOR_MONO.png);
     transition: all 2s ease;
 }
 #btn-pj-10:focus img {
-    content: url(../resources/BOTONES\ APARTADO\ PERSONAJE/BOTONES_PJ/BOTON_ACTIVO_PERSONAJE_INFERIOR.png);
+    content: url(../includes/BOTONES\ APARTADO\ ESCENARIO/BOTON_ACTIVO_PERSONAJE_INFERIOR_PIRATA.png);
     transition: all 2s ease;
 }
 
@@ -322,4 +358,25 @@ button img{
     margin: 0px;
     padding: 0px;
     background:rgba(38, 69, 105, 0.24);
+}
+.habilidad1{
+    height: 100vh;
+    object-fit: cover;
+    margin: 0px;
+    padding: 0px;
+    background:rgba(38, 69, 105, 0.24);
+}
+.habilidad2{
+    height: 100vh;
+    object-fit: cover;
+    margin: 0px;
+    padding: 0px;
+    background:rgba(105, 54, 38, 0.24);
+}
+.habilidad3{
+    height: 100vh;
+    object-fit: cover;
+    margin: 0px;
+    padding: 0px;
+    background:rgba(64, 38, 105, 0.24);
 }
