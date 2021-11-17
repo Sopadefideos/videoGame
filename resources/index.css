@@ -1,9 +1,23 @@
-body{
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{ 
+    background-image: url(./../includes/FONDO.png);
+    background-image:  no-repeat center center fixed;
+    background-attachment: fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+/*body{
     background-image: url(./../includes/FONDO_WEB\ \(1\).png);
     background-size: cover;
-    background-repeat: no-repeat;
-    
-}
+    background-repeat: no-repeat;    
+    position: sticky;
+}*/
 button{
     padding: 0!important;
     
@@ -98,16 +112,13 @@ button:active{
             transition: transform 0.3s ease-out;
   }
   
-  .modal.in .modal-dialog {
-  
-  }
+
 /*#cajaHabilidades{
     position: relative;
 }*/
 #img-circulo{
     position: relative;
-    top: 0;
-    left: ;
+    top: 0;    
     content: url(../resources/Sin-título-1.gif);
    
 
@@ -171,9 +182,7 @@ button img{
 
 
 .img-pj-test2{
-    content: url(../resources/BOTONES\ APARTADO\ PERSONAJE/BOTONES_PJ/inactivoPalitoArriba.png);
-    
-    
+    content: url(../resources/BOTONES\ APARTADO\ PERSONAJE/BOTONES_PJ/inactivoPalitoArriba.png);    
 }
 
 .relleno{
@@ -192,9 +201,7 @@ button img{
     margin-left: 7%;
 }
 
-#botonesArriba{
-    
-}
+
 #raya{
     position: absolute;
     width: 60%;
@@ -244,4 +251,75 @@ button img{
     position: absolute;
     top: 0;
     left: 0;
+}
+
+.paginaUno{
+    width: 100%;
+    height: 100vh;
+    clip-path: circle(7%);
+    background:rgba(0, 0, 0, 0.473);
+}
+
+.intro{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.logoFiT{
+    width: 10%;
+    height: 10%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.flechaAbajo{
+    width: 8%;
+    height: 8%;
+    position: absolute;    
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.titulo{
+    color: whitesmoke;
+    font-family:'spider_homeregular';
+    font-size: 5rem;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.subtitulo{
+    color: whitesmoke;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family:'spider_homeregular';
+}
+.paginaDos{
+    height: 100vh;
+    object-fit: cover;
+    margin: 0px;
+    padding: 0px;
+    background:rgba(38, 105, 61, 0.24);
+}
+.paginaTres{
+    height: 100vh;
+    object-fit: cover;
+    margin: 0px;
+    padding: 0px;
+    background:rgba(64, 38, 105, 0.24);
+}
+.paginaCuatro{
+    height: 100vh;
+    object-fit: cover;
+    margin: 0px;
+    padding: 0px;
+    background:rgba(105, 54, 38, 0.24);
+}
+.paginaCinco{
+    height: 100vh;
+    object-fit: cover;
+    margin: 0px;
+    padding: 0px;
+    background:rgba(38, 69, 105, 0.24);
 }
