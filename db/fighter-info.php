@@ -25,7 +25,7 @@ class FighterInfo
     $this-> $button = $button;
     }
 
-    public function addFighter($arr,$name,$description,$speed,$strength,$defense,$cooldown,$accuracy,$img,$button){
+    public function addFighter($name,$description,$speed,$strength,$defense,$cooldown,$accuracy,$img,$button){
 
      array_push($this->fighter,new FighterInfo($name,$description,$speed,$strength,$defense,$cooldown,$accuracy,$img,$button));
 
