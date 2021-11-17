@@ -130,6 +130,16 @@ button:active{
     bottom: 5%;
     content: url(./../includes/idle-calabaza.gif)
 }
+.fotoPJjs{
+    display: none;
+    position: absolute;
+    content: url(./../includes/flechaAbajo.gif);
+}
+
+.img-Habilidades{
+    display: none;
+    
+}
 
 #img-pj-1{
     content: url(../includes/BOTONES\ APARTADO\ ESCENARIO/BOTON_DESACTIVADO_PERSONAJE_INFERIOR_ARPIA.png);

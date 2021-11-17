@@ -11,6 +11,8 @@ function autoPlayYouTubeModal(){
     });
   }
   
+
+  
   let tl = gsap.timeline({
     scrollTrigger: {
       trigger: ".paginaUno",
