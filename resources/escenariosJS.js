@@ -14,7 +14,7 @@ let escenarios = [
 
 function muestraImg(clicked_id){   
     //let fecha = Date();
-    let parrafoNombre = document.getElementById('parrafoNombre');
+    let parrafoNombre = document.getElementById('parrafo-Nombre');
     //let parrafoDescripcion = document.getElementById('cajaDescripcion');
     //let giratorio = document.getElementById('img-cuadradaGif');
     let indiceDelBoton = botones.indexOf(clicked_id);
