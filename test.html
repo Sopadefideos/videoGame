@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="resources/index.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="includes/fuentes/spider/stylesheet.css">
+  <link rel="stylesheet" type="text/css" href="includes/fuentes/candy/stylesheet.css">
+
+
+  <link href="https://fonts.googleapis.com/css2?family=Mohave:wght@300&display=swap" rel="stylesheet">
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+  <script>
+    $(document).ready(function () {
+
+      var url = $("#cartoonVideo").attr('src');
+
+      $("#myModal").on('hide.bs.modal', function () {
+        $("#cartoonVideo").attr('src', '');
+      });
+
+      $("#myModal").on('show.bs.modal', function () {
+        $("#cartoonVideo").attr('src', url);
+      });
+    });
+  </script>
+
+
+
+  <title>Fight in Time</title>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+
+        <div class="col-md-1 col-7 ">
+          <button type="button" class="btn shadow-none"><img src="includes/Logo_y_nombre_horizontal.png" alt=""
+              class="img-fluid"></button>
+        </div>
+
+        <div class="container">
+          <div class="row justify-content-md-center">
+            <div class="col-md-2 col-7">
+              <button type="button" class="btn rounded-pill btn-warning shadow-none" id="btn-info"><img
+                  class="img-fluid" src="" id="img-info" /> </button>
+            </div>
+
+            <div class="col-md-2 col-7">
+              <button type="button" class="btn rounded-pill btn-warning shadow-none" id="btn-pjs"> <img alt=""
+                  class="img-fluid" id="img-pjs" /></button>
+            </div>
+
+            <div class="col-md-2 col-7">
+              <button type="button" class="btn rounded-pill btn-warning shadow-none" id="btn-escn"> <img alt=""
+                  class="img-fluid" id="img-escn" /></button>
+            </div>
+
+
+            <div class="col-md-2 col-7">
+              <div class="dropdown">
+                <button type="button" class="btn rounded-pill btn-warning shadow-none" id="btn-modo"
+                  data-bs-toggle="dropdown" aria-expanded="false" />
+                <img alt="" class="img-fluid" id="img-modo" />
+                </button>
+                <ul class="dropdown-menu mt-3 border-0" aria-labelledby="btn-modo">
+                  <li><button type="button" class="btn rounded-pill btn-warning mb-1 shadow-none" id="btn-modo-vs"><img
+                        alt="" class="img-fluid" id="img-modo-vs" /></button></li>
+                  <li><button type="button" class="btn rounded-pill btn-warning mb-1 shadow-none"
+                      id="btn-modo-arcade"><img alt="" class="img-fluid" id="img-modo-arcade" /></button></li>
+                  <li><button type="button" class="btn rounded-pill btn-warning mb-1 shadow-none"
+                      id="btn-modo-cooperativo"><img alt="" class="img-fluid" id="img-modo-cooperativo" /></button></li>
+                  <li><button type="button" class="btn rounded-pill btn-warning mb-1 shadow-none"
+                      id="btn-modo-torneo"><img alt="" class="img-fluid" id="img-modo-torneo" /></button></li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="row justify-content-md-center g-1" style="width: 10vw;">
+          <div class="col-md-2 col-7 align-self-end">
+            <button type="button" class="btn btn-light shadow-none"><img
+                src="includes/botones/language/COREANO IDIOMA.png" alt="" class="img-fluid"></button>
+          </div>
+          <div class="col-md-2 col-7 align-self-end">
+            <button type="button" class="btn btn-light shadow-none"><img
+                src="includes/botones/language/JAPONES IDIOMA.png" alt="" class="img-fluid"></button>
+          </div>
+          <div class="col-md-2 col-7 align-self-end">
+            <button type="button" class="btn btn-light shadow-none"><img
+                src="includes/botones/language/FRANCES IDIOMA.png" alt="" class="img-fluid"></button>
+          </div>
+          <div class="w-100"></div>
+          <div class="col-md-2 col-7 align-self-end">
+            <button type="button" class="btn btn-light shadow-none"><img
+                src="includes/botones/language/INGLES IDIOMA.png" alt="" class="img-fluid"></button>
+          </div>
+          <div class="col-md-2 col-7 align-self-end">
+            <button type="button" class="btn btn-light shadow-none"><img
+                src="includes/botones/language/ESPAÑOL IDIOMA.png" alt="" class="img-fluid"></button>
+          </div>
+        </div>
+
+        <div class="col-md-2 col-7 ">
+          <button type="button" class="btn btn-dark shadow-none" data-bs-toggle="modal" data-bs-target="#myModal"
+            id="btn-insertCoin"><img src="includes/botones/icoin.gif" alt="" class="img-fluid"></button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+  <div id="myModal" class="modal fade">
+    <div class="modal-dialog modal-fullscreen">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Fight in Time</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <iframe id="cartoonVideo" class="embed-responsive-item" width="100%" height="100%"
+            src="//www.youtube.com/embed/YE7VzlLtp-4" allowfullscreen></iframe>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary p-1" data-bs-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <br />
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container-fluid mb-5">
+    <div class="row ">
+      <div class="col-6 col-md-7">
+        <div class="row" id="columnaBotones">
+          <div class="row justify-content-md-center gx-5" style="margin-top: 5%;margin-left: -10%;" id="botonesArriba">
+            <div class="col-2 col-md-2">
+              <button type="button" class="btn shadow-none me-5" id="btn-pj-1"> <img alt=""
+                  class="img-fluid img-pj-test" id="img-pj-1" /></button>
+            </div>
+            <div class="col-2 col-md-2">
+              <button type="button" class="btn shadow-none me-5" id="btn-pj-2"> <img alt=""
+                  class="img-fluid img-pj-test" / id="img-pj-2"></button>
+            </div>
+            <div class="col-2 col-md-2">
+              <button type="button" class="btn shadow-none me-5" id="btn-pj-3"> <img alt=""
+                  class="img-fluid img-pj-test" / id="img-pj-3"></button>
+            </div>
+            <div class="col-2 col-md-2">
+              <button type="button" class="btn shadow-none me-5" id="btn-pj-4"> <img alt=""
+                  class="img-fluid img-pj-test" / id="img-pj-4"></button>
+            </div>
+            <div class="col-2 col-md-2">
+              <button type="button" class="btn shadow-none me-5" id="btn-pj-5"> <img alt=""
+                  class="img-fluid img-pj-test" / id="img-pj-5"></button>
+            </div>
+          </div>
+
+          <div class="row overflow-visible columnaIzquierda" style="margin-top: -1%;">
+            <div class="col-12 col-md-12 overflow-visible">
+              <hr class="overflow-visible" id="raya" />
+            </div>
+          </div>
+
+          <div class="row justify-content-md-center gx-5 columnaIzquierda"
+            style="margin-top: -1.5%; margin-left: -15%;">
+            <div class="col-1 col-md-2">
+              <button type="button" class="btn shadow-none ms-5" id="btn-pj-"> <img alt=""
+                  class="img-fluid relleno" /></button>
+            </div>
+            <div class="col-2 col-md-2">
+              <button type="button" class="btn shadow-none ms-5" id="btn-pj-6"> <img alt="" class="img-fluid"
+                  id="img-pj-6" /></button>
+            </div>
+            <div class="col-2 col-md-2">
+              <button type="button" class="btn shadow-none ms-5" id="btn-pj-7"> <img alt="" class="img-fluid"
+                  id="img-pj-7" /></button>
+            </div>
+            <div class="col-2 col-md-2">
+              <button type="button" class="btn shadow-none ms-5" id="btn-pj-8"> <img alt="" class="img-fluid"
+                  id="img-pj-8" /></button>
+            </div>
+            <div class="col-2 col-md-2">
+              <button type="button" class="btn shadow-none ms-5" id="btn-pj-9"> <img alt="" class="img-fluid"
+                  id="img-pj-9" /></button>
+            </div>
+            <div class="col-2 col-md-2">
+              <button type="button" class="btn shadow-none ms-5" id="btn-pj-10"> <img alt="" class="img-fluid"
+                  id="img-pj-10" /></button>
+            </div>
+          </div>
+
+
+          <div class="row mt-5 columnaIzquierda">
+            <div class="col-md-6 ">
+              <p id="parrafoHabilidades" class="text-center">HABILIDADES</p>
+            </div>
+            <div class="col-md-6">
+              <p id="parrafoNombre" class="text-center">CLARK</p>
+            </div>
+
+
+          </div>
+          <div class="row align-items-center gx-5 columnaIzquierda">
+            <div class="col-md-6">
+              <img class="img-fluid cover"
+                src="resources\BOTONES APARTADO PERSONAJE\PERSONAJES\CLARK_MONO\HABILIDADES-MONO.gif" alt="habilidades">
+            </div>
+            <div class="col-md-6  ">
+
+              <p id="cajaDescripcion" class="text-center">
+
+                Protagonista de la futura serie de animación espacial “Deep Space”.<br>
+                Se trata del líder de la escuadra primate de exploración 5 y se caracteriza
+                por ser un capitán decidido y valiente. Su capacidad parautilizar las
+                herramientas a su disposición son excelentes.
+              </p>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+      <div class="col-6 col-md-5">
+        <img src="" alt="" class="img-fluid" id="fotoPJ">
+        <img src="" alt="" class="img-fluid" id="img-circulo">
+      </div>
+
+    </div>
+  </div>
+
+  <div class="habilidad1">
+    <h2>habilidad1</h2>
+  </div>
+  <div class="habilidad2">
+    <h2>habilidad2</h2>
+  </div>
+  <div class="habilidad3">
+    <h2>habilidad3</h2>
+  </div>
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>
