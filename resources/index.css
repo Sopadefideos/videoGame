@@ -1,3 +1,23 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{ 
+    background-image: url(./../includes/FONDO.png);
+    background-image:  no-repeat center center fixed;
+    background-attachment: fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+/*body{
+    background-image: url(./../includes/FONDO_WEB\ \(1\).png);
+    background-size: cover;
+    background-repeat: no-repeat;    
+    position: sticky;
+}*/
 button{
     padding: 0!important;
     
@@ -59,7 +79,201 @@ button:active{
     width: 3vw;
     height: 3vh;
 }
+
+#img-modo-vs{
+    content: url(../includes/botones/normal/VS\ NORMAL.png);
+}
+#img-modo-arcade{
+    content: url(../includes/botones/normal/ARCADE\ NORMAL.png);
+}
+#img-modo-cooperativo{
+    content: url(../includes/botones/normal/COOPERATIVO\ NORMAL.png);
+}
+#img-modo-torneo{
+    content: url(../includes/botones/normal/TORNEO\ NORMAL.png);
+}
+
+#btn-modo-vs:focus img{
+    content: url(../includes/botones/active/VS\ PUSH.png);
+}
+#btn-modo-arcade:focus img{
+    content: url(../includes/botones/active/ARCADE\ PUSH.png);
+}
+#btn-modo-cooperativo:focus img{
+    content: url(../includes/botones/active/COOPERATIVO\ PUSH.png);
+}
+#btn-modo-torneo:focus img{
+    content: url(../includes/botones/active/TORNEO\ PUSH.png);
+}
+.modal.fade .modal-dialog {
+    -webkit-transition: -webkit-transform 0.3s ease-out;
+       -moz-transition: -moz-transform 0.3s ease-out;
+         -o-transition: -o-transform 0.3s ease-out;
+            transition: transform 0.3s ease-out;
+  }
   
+
+/*#cajaHabilidades{
+    position: relative;
+}*/
+#img-circulo{
+    position: relative;
+    top: 0;    
+    content: url(../resources/Sin-título-1.gif);
+   
+
+    
+}
+#fotoPJ{
+    position: absolute;
+    left: 30%;
+    bottom: 5%;
+    content: url(./../includes/idle-calabaza.gif)
+}
+.fotoPJjs{
+    display: none;
+    position: absolute;
+    content: url(./../includes/flechaAbajo.gif);
+}
+
+.img-Habilidades{
+    
+    
+}
+
+#img-pj-1{
+    content: url(../includes/BOTONES\ APARTADO\ ESCENARIO/BOTON_DESACTIVADO_PERSONAJE_INFERIOR_ARPIA.png);
+    transition: all 2s ease;
+}
+#img-pj-2{
+    content: url(../includes/BOTONES\ APARTADO\ ESCENARIO/BOTON_DESACTIVADO_PERSONAJE_INFERIOR_EXPLORADORA.png);
+    transition: all 2s ease;
+}
+#img-pj-3{
+    content: url(../includes/BOTONES\ APARTADO\ ESCENARIO/BOTON_DESACTIVADO_PERSONAJE_INFERIOR_MRBOCETO.png);
+    transition: all 2s ease;
+}
+#img-pj-4{
+    content: url(../includes/BOTONES\ APARTADO\ ESCENARIO/BOTON_DESACTIVADO_PERSONAJE_INFERIOR_ROBOT.png);
+    transition: all 2s ease;
+}
+#img-pj-5{
+    content: url(../includes/BOTONES\ APARTADO\ ESCENARIO/BOTON_DESACTIVADO_PERSONAJE_INFERIOR_TIBURON.png);
+    transition: all 2s ease;
+}
+#btn-pj-1:focus img {
+    content: url(../includes/BOTONES\ APARTADO\ ESCENARIO/BOTON_ACTIVO_PERSONAJE_INFERIOR_ARPIA.png);
+    transition: all 2s ease;
+}
+#btn-pj-2:focus img {
+    content: url(../includes/BOTONES\ APARTADO\ ESCENARIO/BOTON_ACTIVO_PERSONAJE_INFERIOR_EXPLORADORA.png);
+    transition: all 2s ease;
+}
+#btn-pj-3:focus img {
+    content: url(../includes/BOTONES\ APARTADO\ ESCENARIO/BOTON_ACTIVO_PERSONAJE_INFERIOR_MRBOCETO.png);
+    transition: all 2s ease;
+}
+#btn-pj-4:focus img {
+    content: url(../includes/BOTONES\ APARTADO\ ESCENARIO/BOTON_ACTIVO_PERSONAJE_INFERIOR_ROBOT.png);
+    transition: all 2s ease;
+}
+#btn-pj-5:focus img {
+    content: url(../includes/BOTONES\ APARTADO\ ESCENARIO/BOTON_ACTIVO_PERSONAJE_INFERIOR_TIBURON.png);
+    transition: all 2s ease;
+}
+#img-pj-6{
+    content: url(../includes/BOTONES\ APARTADO\ ESCENARIO/BOTON_DESACTIVADO_PERSONAJE_INFERIOR_ALIEN.png);
+    transition: all 2s ease;
+}
+#img-pj-7{
+    content: url(../includes/BOTONES\ APARTADO\ ESCENARIO/BOTON_DESACTIVADO_PERSONAJE_INFERIOR_CABALLERO.png);
+    transition: all 2s ease;
+}
+#img-pj-8{
+    content: url(../includes/BOTONES\ APARTADO\ ESCENARIO/BOTON_DESACTIVADO_PERSONAJE_INFERIOR_CALABAZA.png);
+    transition: all 2s ease;
+}
+#img-pj-9{
+    content: url(../includes/BOTONES\ APARTADO\ ESCENARIO/BOTON_DESACTIVADO_PERSONAJE_INFERIOR_MONO.png);
+    transition: all 2s ease;
+}
+#img-pj-10{
+    content: url(../includes/BOTONES\ APARTADO\ ESCENARIO/BOTON_DESACTIVADO_PERSONAJE_INFERIOR_PIRATA.png);
+    transition: all 2s ease;
+}
+#btn-pj-6:focus img {
+    content: url(../includes/BOTONES\ APARTADO\ ESCENARIO/BOTON_ACTIVO_PERSONAJE_INFERIOR_ALIEN.png);
+    transition: all 2s ease;
+}
+#btn-pj-7:focus img {
+    content: url(../includes/BOTONES\ APARTADO\ ESCENARIO/BOTON_ACTIVO_PERSONAJE_INFERIOR_CABALLERO.png);
+    transition: all 2s ease;
+}
+#btn-pj-8:focus img {
+    content: url(../includes/BOTONES\ APARTADO\ ESCENARIO/BOTON_ACTIVO_PERSONAJE_INFERIOR_CALABAZA.png);
+    transition: all 2s ease;
+}
+#btn-pj-9:focus img {
+    content: url(../includes/BOTONES\ APARTADO\ ESCENARIO/BOTON_ACTIVO_PERSONAJE_INFERIOR_MONO.png);
+    transition: all 2s ease;
+}
+#btn-pj-10:focus img {
+    content: url(../includes/BOTONES\ APARTADO\ ESCENARIO/BOTON_ACTIVO_PERSONAJE_INFERIOR_PIRATA.png);
+    transition: all 2s ease;
+}
+
+button img{
+    transition: all 5s ease;
+}
+
+
+.img-pj-test2{
+    content: url(../resources/BOTONES\ APARTADO\ PERSONAJE/BOTONES_PJ/inactivoPalitoArriba.png);    
+}
+
+.relleno{
+    content: url(../resources/BOTONES\ APARTADO\ PERSONAJE/BOTONES_PJ/relleno.png);
+    display: none;
+}
+#cajaCirculo{
+    margin-left: 15%;
+}
+
+#cajaDescripcion{
+    font-family: 'Mohave', sans-serif;
+    font-size: 1.4em;
+}
+#columnaBotones{
+    margin-left: 7%;
+}
+
+
+#raya{
+    position: absolute;
+    width: 60%;
+    margin-left: -5%;
+    margin-top: 0.1%;
+    height: 0.2vh;
+}
+#parrafoHabilidades{
+    font-family: 'spider_homeregular' ;
+    font-size: 2em;
+}
+#parrafoNombre{
+    font-family:'candy_beansregular';
+    font-size: 2em;
+}
+
+
+/*#caja-personajes-uno{
+    float: none;
+    position: absolute;
+    left: 7em;
+    top: 4.7em;
+    z-index: 1000;
+    background-color: #92AD40;
+
+}*/
  /* button:active {
     color: var(--drk-pink);
   }
@@ -67,3 +281,112 @@ button:active{
   button:active i {
     background-color: var(--drk-pink);
   }*/
+
+
+  .escenario {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.image1 {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.image2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.paginaUno{
+    width: 100%;
+    height: 100vh;
+    clip-path: circle(7%);
+    background:rgba(0, 0, 0, 0.473);
+}
+
+.intro{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.logoFiT{
+    width: 10%;
+    height: 10%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.flechaAbajo{
+    width: 8%;
+    height: 8%;
+    position: absolute;    
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.titulo{
+    color: whitesmoke;
+    font-family:'spider_homeregular';
+    font-size: 5rem;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.subtitulo{
+    color: whitesmoke;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family:'spider_homeregular';
+}
+.paginaDos{
+    height: 100vh;
+    object-fit: cover;
+    margin: 0px;
+    padding: 0px;
+    background:rgba(38, 105, 61, 0.24);
+}
+.paginaTres{
+    height: 100vh;
+    object-fit: cover;
+    margin: 0px;
+    padding: 0px;
+    background:rgba(64, 38, 105, 0.24);
+}
+.paginaCuatro{
+    height: 100vh;
+    object-fit: cover;
+    margin: 0px;
+    padding: 0px;
+    background:rgba(105, 54, 38, 0.24);
+}
+.paginaCinco{
+    height: 100vh;
+    object-fit: cover;
+    margin: 0px;
+    padding: 0px;
+    background:rgba(38, 69, 105, 0.24);
+}
+.habilidad1{
+    height: 100vh;
+    object-fit: cover;
+    margin: 0px;
+    padding: 0px;
+    background:rgba(38, 69, 105, 0.24);
+}
+.habilidad2{
+    height: 100vh;
+    object-fit: cover;
+    margin: 0px;
+    padding: 0px;
+    background:rgba(105, 54, 38, 0.24);
+}
+.habilidad3{
+    height: 100vh;
+    object-fit: cover;
+    margin: 0px;
+    padding: 0px;
+    background:rgba(64, 38, 105, 0.24);
+}
