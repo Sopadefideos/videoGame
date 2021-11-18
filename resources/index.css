@@ -139,6 +139,27 @@ button:active{
 
     
 }
+#img-cuadrada{
+    content: url(./../includes/BOTONES\ APARTADO\ ESCENARIO/CUADRADO-ESCENARIO.png);
+    z-index: -1;
+    position: relative;
+    
+}
+#img-cuadradaGif{
+    /*content: url(./../includes/BOTONES\ APARTADO\ ESCENARIO/MOVIMIENTO-RECTANGULO-AMARILLO.gif);*/
+    position: absolute;
+    width: 53.7%;
+    height: 67%;
+    transform: translate(-102.2%, -0.5%);
+    z-index:5;
+}
+#img-cuadradaEscenario{
+    position: absolute;
+    width: 55%;
+    height: 60.5%;
+    transform: translate(-100.7%,4.7%);
+    opacity: 0.9;
+}
 #fotoPJ{
     position: absolute;
     left: 30%;
@@ -151,10 +172,7 @@ button:active{
     content: url(./../includes/flechaAbajo.gif);
 }
 
-.img-Habilidades{
-    display: none;
-    
-}
+
 
 #img-pj-1{
     content: url(../includes/BOTONES\ APARTADO\ ESCENARIO/BOTON_DESACTIVADO_PERSONAJE_INFERIOR_ARPIA.png);
@@ -254,7 +272,7 @@ button img{
     margin-left: 15%;
 }
 
-#cajaDescripcion{
+#caja-Descripcion{
     font-family: 'Mohave', sans-serif;
     font-size: 1.4em;
 }
@@ -265,16 +283,16 @@ button img{
 
 #raya{
     position: absolute;
-    width: 60%;
+    width: 44%;
     margin-left: -5%;
     margin-top: 0.1%;
     height: 0.2vh;
 }
-#parrafoHabilidades{
+#parrafo-Habilidades{
     font-family: 'spider_homeregular' ;
-    font-size: 2em;
+    font-size: 2.5em;
 }
-#parrafoNombre{
+#parrafo-Nombre{
     font-family:'candy_beansregular';
     font-size: 2em;
 }
