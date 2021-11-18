@@ -257,7 +257,7 @@ button img{
     margin-left: 15%;
 }
 
-#cajaDescripcion{
+#caja-Descripcion{
     font-family: 'Mohave', sans-serif;
     font-size: 1.4em;
 }
@@ -273,11 +273,11 @@ button img{
     margin-top: 0.1%;
     height: 0.2vh;
 }
-#parrafoHabilidades{
+#parrafo-Habilidades{
     font-family: 'spider_homeregular' ;
-    font-size: 2em;
+    font-size: 2.5em;
 }
-#parrafoNombre{
+#parrafo-Nombre{
     font-family:'candy_beansregular';
     font-size: 2em;
 }
