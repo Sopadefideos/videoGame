@@ -1,3 +1,7 @@
+let movimientoAmarillo = [
+'./includes/BOTONES\ APARTADO\ ESCENARIO/MOVIMIENTO-RECTANGULO-AMARILLO.gif',
+'./includes/BOTONES\ APARTADO\ ESCENARIO/MOVIMIENTO-RECTANGULO-AMARILLO-copia.gif'];
+let cambioAmarillo = true;
 let botones =['btn-pj-1', 'btn-pj-2', 'btn-pj-3', 'btn-pj-4', 'btn-pj-5', 'btn-pj-6', 'btn-pj-7', 'btn-pj-8' , 'btn-pj-9', 'btn-pj-10'];
 let nombres =['HERA', 'NAKE','MR. BOCETO','TECHNEY', 'ULDAH', "RAG'HOR", 'SYR AIMERIC', 'ELLAINE', 'CLARK', 'EIGHARD BARBASUCIA'];
 let escenarios = [
@@ -16,11 +20,19 @@ function muestraImg(clicked_id){
     //let fecha = Date();
     let parrafoNombre = document.getElementById('parrafo-Nombre');
     //let parrafoDescripcion = document.getElementById('cajaDescripcion');
-    //let giratorio = document.getElementById('img-cuadradaGif');
+    let giratorio = document.getElementById('img-cuadradaGif');
     let indiceDelBoton = botones.indexOf(clicked_id);
     let cuadradoEscenario = document.getElementById('img-cuadradaEscenario');
     //giratorio.src = "./../includes/BOTONES\ APARTADO\ ESCENARIO/MOVIMIENTO-RECTANGULO-AMARILLO.gif";
+    if(cambioAmarillo == true){
+      giratorio.src=movimientoAmarillo[1];
+      cambioAmarillo=false;
+    }else{
+      giratorio.src=movimientoAmarillo[0];
+      cambioAmarillo=true;
+    }
     cuadradoEscenario.src = escenarios[indiceDelBoton];
     parrafoNombre.innerHTML = nombres[indiceDelBoton];
+    
 
   }

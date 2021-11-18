@@ -131,7 +131,7 @@ button:active{
     
 }
 #img-cuadradaGif{
-    content: url(./../includes/BOTONES\ APARTADO\ ESCENARIO/MOVIMIENTO-RECTANGULO-AMARILLO.gif);
+    /*content: url(./../includes/BOTONES\ APARTADO\ ESCENARIO/MOVIMIENTO-RECTANGULO-AMARILLO.gif);*/
     position: absolute;
     width: 53.7%;
     height: 67%;
