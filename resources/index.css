@@ -147,9 +147,10 @@ button:active{
 }
 #fotoPJ{
     position: absolute;
-    left: 30%;
-    bottom: 5%;
-    content: url(./../includes/idle-calabaza.gif)
+    width: 35rem;
+    height: 35rem;
+    transform: translate(10%,5%);
+       
 }
 .fotoPJjs{
     display: none;
@@ -157,6 +158,18 @@ button:active{
     content: url(./../includes/flechaAbajo.gif);
 }
 
+.spin{
+    animation: circle-spin infinite 10s linear;
+}
+
+@keyframes circle-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
 
 
 #img-pj-1{
@@ -269,6 +282,13 @@ button img{
 #raya{
     position: absolute;
     width: 44%;
+    margin-left: -5%;
+    margin-top: 0.1%;
+    height: 0.2vh;
+}
+#rayaPj{
+    position: absolute;
+    width: 60%;
     margin-left: -5%;
     margin-top: 0.1%;
     height: 0.2vh;
