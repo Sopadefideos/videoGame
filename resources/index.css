@@ -465,13 +465,9 @@ button img{
     object-fit: cover;
     margin: 0px;
     padding: 0px;
-    background:rgba(64, 38, 105, 0.24);
+   
 }
-<<<<<<< HEAD
-.dosChoque{
-    
-    background:rgba(64, 38, 105, 0.24);
-}
+
 #TituloChoque{
     padding-top: 1%;
     font-family: 'spider_homeregular' ;
@@ -490,7 +486,28 @@ button img{
     object-fit: cover;
     margin: 0px;
     padding: 0px;
-    background:rgba(64, 38, 105, 0.24);
+   
+}
+#unoIndicador{
+    height: 100vh;
+    object-fit: cover;
+    margin: 0px;
+    padding: 0px;
+    
+
+}
+.unoCarruselTit{
+    padding-top: 1%;
+    font-family: 'spider_homeregular' ;
+    font-size: 5vh;  
+}
+.unoSubtit{
+    font-family: 'Mohave', sans-serif;
+    font-size: 1.4rem; 
+}
+.unoletras{
+    font-family: 'Mohave', sans-serif;
+    font-size: 1.7rem; 
 }
 #TituloEntintado{
     padding-top: 1%;
@@ -506,6 +523,5 @@ button img{
     height: 70vh;
     margin-left: 11%;
 }
-=======
 
->>>>>>> main
+
