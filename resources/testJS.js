@@ -11,7 +11,7 @@ let descripciones = ['Reina de las arpías y una de las principales antagonistas
 'Protagonista de la futura serie de animación espacial “Deep Space”. Se trata del líder de la escuadra primate de exploración 5 y se caracteriza por ser un capitán decidido y valiente. Su capacidad para utilizar las herramientas a su disposición son excelentes.',
 'Protagonista de la futura serie de animación “Dark Seas”. Barbasucia fue considerado uno de los mayores piratas que jamás hayan navegado los siete mares, pero encontró su final en una de sus tantas aventuras. Ahora ha vuelto a la vida para terminar el viaje que una vez empezó. Barbasucia se caracteriza por su uso gran uso de cañón y espada.',];
 let Nombres =['HERA', 'NAKE','MR. BOCETO','TECHNEY', 'ULDAH', "RAG'HOR", 'SYR AIMERIC', 'ELLAINE', 'CLARK', 'EIGHARD BARBASUCIA'];
-let sources = ['./includes/BOTONES APARTADO PERSONAJE/PERSONAJES/HERA_ARPIA/HABILIDADES-ARPIA.gif',
+let imagenHabilidades = ['./includes/BOTONES APARTADO PERSONAJE/PERSONAJES/HERA_ARPIA/HABILIDADES-ARPIA.gif',
 './includes/BOTONES APARTADO PERSONAJE/PERSONAJES/NAKE_EXPLORADORA/HABILIDADES-EXPLORADORA.gif',
 './includes/BOTONES APARTADO PERSONAJE/PERSONAJES/MR_BOCETO_BOCETO/HABILIDADES-MR-BOCETO.gif',
 './includes/BOTONES APARTADO PERSONAJE/PERSONAJES/TECHNEY_ROBOT/HABILIDADES-ROBOT.gif',
@@ -21,6 +21,21 @@ let sources = ['./includes/BOTONES APARTADO PERSONAJE/PERSONAJES/HERA_ARPIA/HABI
 './includes/BOTONES APARTADO PERSONAJE/PERSONAJES/ELLAINE_MUJER_CALABAZA/HABILIDADES-CALABAZA.gif',
 './includes/BOTONES APARTADO PERSONAJE/PERSONAJES/CLARK_MONO/HABILIDADES-MONO.gif',
 './includes/BOTONES APARTADO PERSONAJE/PERSONAJES/EIGHARD_BARBASUCIA_PIRATA_ESQUELETO/HABILIDADES-PIRATA.gif'];
+let imagenPersonaje = [
+'./includes/BOTONES APARTADO PERSONAJE/PERSONAJES FINAL/IDLEARPIAFINAL.mp4',
+'./includes/BOTONES APARTADO PERSONAJE/PERSONAJES FINAL/IDLEEXPLORADORAFINAL.mp4',
+'./includes/BOTONES APARTADO PERSONAJE/PERSONAJES FINAL/IDLE-SKETCH-MAN.mp4',
+'./includes/BOTONES APARTADO PERSONAJE/PERSONAJES FINAL/',
+'./includes/BOTONES APARTADO PERSONAJE/PERSONAJES FINAL/IDLETIBURONFINAL.mp4',
+'./includes/BOTONES APARTADO PERSONAJE/PERSONAJES FINAL/IDLEALIENFINAL.mp4',
+'./includes/BOTONES APARTADO PERSONAJE/PERSONAJES FINAL/IDLECABALLEROFINAL.mp4',
+'./includes/BOTONES APARTADO PERSONAJE/PERSONAJES FINAL/IDLECALABAZAFINAL.mp4',
+'./includes/BOTONES APARTADO PERSONAJE/PERSONAJES FINAL/IDLEMONOFINAL.mp4',
+'./includes/BOTONES APARTADO PERSONAJE/PERSONAJES FINAL/IDLEPIRATAFINAL.mp4'
+];
+
+
+
   console.log(botones.indexOf('btn-pj-1'));
   let imagenDinamica = document.getElementById('fotoPJjs');
   //Array con las fotos de los PJ
@@ -43,6 +58,7 @@ let sources = ['./includes/BOTONES APARTADO PERSONAJE/PERSONAJES/HERA_ARPIA/HABI
     let parrafoNombre = document.getElementById('parrafo-Nombre');
     let cajaDescripcion = document.getElementById('caja-Descripcion');
     let parrafoHabilidades = document.getElementById('parrafo-Habilidades');
+    let imagenPj = document.getElementById('fotoPJ');
 
     /*console.log(indiceDelBoton);           
     for(let i = 0; i<botones.length;i++){
@@ -59,9 +75,11 @@ let sources = ['./includes/BOTONES APARTADO PERSONAJE/PERSONAJES/HERA_ARPIA/HABI
     let contenido = habilidadesPjs[indiceDelBoton].innerHTML;
     habilidadesPjs[indiceDelBoton].innerHTML = contenido;
     console.log(habilidadesPjs);*/
-    imgHabilidad.src = sources[indiceDelBoton];
+    imgHabilidad.src = imagenHabilidades[indiceDelBoton];
     parrafoNombre.innerHTML = Nombres[indiceDelBoton];
     cajaDescripcion.innerHTML = descripciones[indiceDelBoton];
     parrafoHabilidades.innerHTML = habilidades[indiceDelBoton];
+    imagenPj.src = imagenPersonaje[indiceDelBoton];
+
 
   }
