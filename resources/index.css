@@ -41,12 +41,7 @@ button:active{
 #img-modo {
     content: url(../includes/botones/normal/MODO\ NORMAL.png);
 }
-#img-info-mecanica {
-    content: url(../includes/botones/normal/INF\ MECANICA.png)
-}
-#img-info-historia {
-    content: url(../includes/botones/normal/HISTORIA\ NORMAL.png)
-}
+
 /*HOVER POR SI SE QUIEREN USAR
 
 #img-info:hover{
@@ -76,11 +71,6 @@ button:active{
 #btn-modo:focus img {
     content: url(../includes/botones/active/MODO\ PUSH.png);
 }
-#btm-info:focus img {
-    content: url(../includes/botones/active/INFORMACION\ PUSH.png)
-}
-
-
 
 .idiomas{
     display: flex;    
@@ -115,12 +105,6 @@ button:active{
 #btn-modo-torneo:focus img{
     content: url(../includes/botones/active/TORNEO\ PUSH.png);
 }
-#btn-info-mecanica:focus img{
-    content: url(../includes/botones/active/INF\ MECANICA\ PUSH.png);
-}
-#btn-info-historia:focus img{
-    content: url(../includes/botones/active/HISTORIA\ PUSH.png);
-}
 .modal.fade .modal-dialog {
     -webkit-transition: -webkit-transform 0.3s ease-out;
        -moz-transition: -moz-transform 0.3s ease-out;
@@ -128,6 +112,7 @@ button:active{
             transition: transform 0.3s ease-out;
   }
   
+
 /*#cajaHabilidades{
     position: relative;
 }*/
@@ -465,63 +450,15 @@ button img{
     object-fit: cover;
     margin: 0px;
     padding: 0px;
-   
+    background:rgba(64, 38, 105, 0.24);
 }
-
-#TituloChoque{
+#titulo-mod{
     padding-top: 1%;
     font-family: 'spider_homeregular' ;
-    font-size: 5vh;
+    font-size: 5vh; 
 }
-#subTituloChoque{    
-    font-family: 'Mohave', sans-serif;
-    font-size: 1.4rem;
-}
-#videoChoque{
-    height: 70vh;
-    margin-left: 11%;
-}
-.tresEntintado{
-    height: 100vh;
-    object-fit: cover;
-    margin: 0px;
-    padding: 0px;
-   
-}
-#unoIndicador{
-    height: 100vh;
-    object-fit: cover;
-    margin: 0px;
-    padding: 0px;
-    
-
-}
-.unoCarruselTit{
-    padding-top: 1%;
-    font-family: 'spider_homeregular' ;
-    font-size: 5vh;  
-}
-.unoSubtit{
-    font-family: 'Mohave', sans-serif;
-    font-size: 1.4rem; 
-}
-.unoletras{
+#subtitulo-mod{
     font-family: 'Mohave', sans-serif;
     font-size: 1.7rem; 
 }
-#TituloEntintado{
-    padding-top: 1%;
-   
-    font-family: 'spider_homeregular' ;
-    font-size: 5vh;
-}
-#subTituloEntintado{    
-    font-family: 'Mohave', sans-serif;
-    font-size: 1.4rem;
-}
-#videoEntintado{
-    height: 70vh;
-    margin-left: 11%;
-}
-
 
