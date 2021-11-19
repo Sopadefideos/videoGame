@@ -1,3 +1,8 @@
+
+$('#img-info').click(function(){
+    $(this).attr('src','../includes/botones/active/INFORMACION\ PUSH.png').addClass('active');
+});
+
 function autoPlayYouTubeModal(){
     var trigger = $("body").find('[data-toggle="modal"]');
     trigger.click(function() {
@@ -33,4 +38,4 @@ function autoPlayYouTubeModal(){
 
   tl.fromTo(".titulo", {opacity:0, scale:0}, {opacity:1,scale:1, duration:4});
   tl.fromTo(".subtitulo", {opacity:0}, {opacity:1, duration:4});
-  
+
