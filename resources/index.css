@@ -327,6 +327,30 @@ button img{
   }*/
 
 
+/** Boton de Sonido **/
+.image-sound{
+    position: fixed;
+    z-index: 10103;
+    top: 90%;
+    right: 20px;
+    text-align:end; 
+}
+
+/** Boton de Revista **/
+#img-botonRevista {
+    content: url(../resources/BOTONES\ REVISTA/revista.jpeg);
+}
+#img-revista {
+    content: url(./../resources/BOTONES REVISTA/boton-revista.png);
+}
+.revista {
+    text-align:center;
+}
+.single-image img{
+    height:auto;
+}
+
+
   .escenario {
     position: relative;
     top: 0;
@@ -434,6 +458,7 @@ button img{
     padding: 0px;
     background:rgba(64, 38, 105, 0.24);
 }
+<<<<<<< HEAD
 .dosChoque{
     
     background:rgba(64, 38, 105, 0.24);
@@ -472,3 +497,6 @@ button img{
     height: 70vh;
     margin-left: 11%;
 }
+=======
+
+>>>>>>> main
