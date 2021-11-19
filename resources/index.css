@@ -3,6 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+#img-insertCoin{
+    height: 5rem;
+}
+#btn-insertCoin{
+    margin-left: 70%;
+}
 body{ 
     background-image: url(./../includes/FONDO.png);
     background-image:  no-repeat center center fixed;
@@ -147,9 +153,9 @@ button:active{
 }
 #fotoPJ{
     position: absolute;
-    width: 35rem;
-    height: 35rem;
-    transform: translate(10%,5%);
+    width: 40rem;
+    height: 40rem;
+    opacity: 0.9;
        
 }
 .fotoPJjs{
