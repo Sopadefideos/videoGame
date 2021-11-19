@@ -458,45 +458,13 @@ button img{
     padding: 0px;
     background:rgba(64, 38, 105, 0.24);
 }
-<<<<<<< HEAD
-.dosChoque{
-    
-    background:rgba(64, 38, 105, 0.24);
-}
-#TituloChoque{
+#titulo-mod{
     padding-top: 1%;
     font-family: 'spider_homeregular' ;
-    font-size: 5vh;
+    font-size: 5vh; 
 }
-#subTituloChoque{    
+#subtitulo-mod{
     font-family: 'Mohave', sans-serif;
-    font-size: 1.4rem;
+    font-size: 1.7rem; 
 }
-#videoChoque{
-    height: 70vh;
-    margin-left: 11%;
-}
-.tresEntintado{
-    height: 100vh;
-    object-fit: cover;
-    margin: 0px;
-    padding: 0px;
-    background:rgba(64, 38, 105, 0.24);
-}
-#TituloEntintado{
-    padding-top: 1%;
-   
-    font-family: 'spider_homeregular' ;
-    font-size: 5vh;
-}
-#subTituloEntintado{    
-    font-family: 'Mohave', sans-serif;
-    font-size: 1.4rem;
-}
-#videoEntintado{
-    height: 70vh;
-    margin-left: 11%;
-}
-=======
 
->>>>>>> main

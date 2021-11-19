@@ -39,7 +39,7 @@ let imagenPersonaje = [
   console.log(botones.indexOf('btn-pj-1'));
   let imagenDinamica = document.getElementById('fotoPJjs');
   //Array con las fotos de los PJ
-  let claseImagenDinamica = document.getElementsByClassName('fotoPJjs');
+  let claseImagenDinamica = document.getElementsByClassName('fotoPJjs'); 
   //Array con las imagenes de las habilidades
   let habilidadesPjs = document.getElementsByClassName('img-Habilidades');
   //let imgHabilidad = document.getElementById('img-habilidad');

@@ -22,6 +22,7 @@ button:active{
     content: url(../../includes/botones/normal/MODO\ NORMAL.png);
 }
 
+
 /*HOVER POR SI SE QUIEREN USAR
 
 #img-info:hover{
@@ -93,3 +94,8 @@ button:active{
 .divfancybox {
     display: none;
 }
+.titulo-mod{
+    padding-top: 1%;
+    font-family: 'spider_homeregular' ;
+    font-size: 5vh;
+ }
