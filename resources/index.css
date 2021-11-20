@@ -47,6 +47,9 @@ button:active{
 #img-modo {
     content: url(../includes/botones/normal/MODO\ NORMAL.png);
 }
+#img-stack{
+    content: url(../includes/botones/normal/botoo-stack-inactivo_Mesa\ de\ trabajo\ 1.png);
+}
 
 /*HOVER POR SI SE QUIEREN USAR
 
@@ -76,6 +79,9 @@ button:active{
 }
 #btn-modo:focus img {
     content: url(../includes/botones/active/MODO\ PUSH.png);
+}
+#btn-stack:focus img{
+    content: url(../includes/botones/active/botoo-stack-activo_Mesa\ de\ trabajo\ 1.png);
 }
 
 .idiomas{
@@ -414,21 +420,21 @@ button img{
     object-fit: cover;
     margin: 0px;
     padding: 0px;
-    background:rgba(38, 105, 61, 0.24);
+    background:rgba(57, 162, 194, 0.336);
 }
 .paginaTres{
     height: 100vh;
     object-fit: cover;
     margin: 0px;
     padding: 0px;
-    background:rgba(64, 38, 105, 0.24);
+    background:rgba(255, 65, 65, 0.336);
 }
 .paginaCuatro{
     height: 100vh;
     object-fit: cover;
     margin: 0px;
     padding: 0px;
-    background:rgba(105, 54, 38, 0.24);
+    background:rgba(95, 2, 114, 0.336);
 }
 .paginaCinco{
     height: 100vh;
@@ -469,7 +475,8 @@ button img{
 
 #subtitulo-mod{
     font-family: 'Mohave', sans-serif;
-    font-size: 1.7rem; 
+    font-size: 1.5rem;
+    text-align: justify; 
 }
 
 
