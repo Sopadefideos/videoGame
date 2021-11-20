@@ -1,0 +1,490 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#img-insertCoin{
+    height: 5rem;
+}
+#btn-insertCoin{
+    margin-left: 70%;
+}
+body{ 
+    background-image: url(../img/FONDO.png);
+    background-image:  no-repeat center center fixed;
+    background-attachment: fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+/*body{
+    background-image: url(./../includes/FONDO_WEB\ \(1\).png);
+    background-size: cover;
+    background-repeat: no-repeat;    
+    position: sticky;
+}*/
+button{
+    padding: 0!important;
+    
+}
+button:focus{
+    border: 0px;
+}
+button:active{
+    border: 0px;
+}
+
+#img-info {
+    content: url(../img/botones/normal/INFORMACIONNORMAL.png);
+}
+#img-pjs {
+    content: url(../img/botones/normal/PERSONAJES\ NORMAL.png);
+}
+#img-escn {
+    content: url(../img/botones/normal/ESCENARIO\ NORMAL.png);
+}
+#img-modo {
+    content: url(../img/botones/normal/MODO\ NORMAL.png);
+}
+
+/*HOVER POR SI SE QUIEREN USAR
+
+#img-info:hover{
+    content: url(../includes/botones/active/INFORMACION\ PUSH.png);
+}         
+#img-pjs:hover {
+    content: url(../includes/botones/active/PERSONAJES\ PUSH.png);
+}
+#img-escn:hover {
+    content: url(../includes/botones/active/ESCENARIO\ PUSH.png);
+}
+#img-modo:hover {
+    content: url(../includes/botones/active/MODO\ PUSH.png);
+}*/
+
+
+  
+#btn-info:focus img {
+    content: url(../img/botones/active/INFORMACION\ PUSH.png);
+}
+#btn-pjs:focus img {
+    content: url(../img/botones/active/PERSONAJES\ PUSH.png);
+}
+#btn-escn:focus img {
+    content: url(../img/botones/active/ESCENARIO\ PUSH.png);
+}
+#btn-modo:focus img {
+    content: url(../img/botones/active/MODO\ PUSH.png);
+}
+
+.idiomas{
+    display: flex;    
+}
+.idiomas button img{
+    width: 3vw;
+    height: 3vh;
+}
+
+#img-modo-vs{
+    content: url(../img/botones/normal/VS\ NORMAL.png);
+}
+#img-modo-arcade{
+    content: url(../img/botones/normal/ARCADE\ NORMAL.png);
+}
+#img-modo-cooperativo{
+    content: url(../img/botones/normal/COOPERATIVO\ NORMAL.png);
+}
+#img-modo-torneo{
+    content: url(../img/botones/normal/TORNEO\ NORMAL.png);
+}
+
+#btn-modo-vs:focus img{
+    content: url(../img/botones/active/VS\ PUSH.png);
+}
+#btn-modo-arcade:focus img{
+    content: url(../img/botones/active/ARCADE\ PUSH.png);
+}
+#btn-modo-cooperativo:focus img{
+    content: url(../img/botones/active/COOPERATIVO\ PUSH.png);
+}
+#btn-modo-torneo:focus img{
+    content: url(../img/botones/active/TORNEO\ PUSH.png);
+}
+.modal.fade .modal-dialog {
+    -webkit-transition: -webkit-transform 0.3s ease-out;
+       -moz-transition: -moz-transform 0.3s ease-out;
+         -o-transition: -o-transform 0.3s ease-out;
+            transition: transform 0.3s ease-out;
+  }
+  
+
+/*#cajaHabilidades{
+    position: relative;
+}*/
+#img-circulo{
+    position: relative;
+    top: 0;    
+    content: url(../img/Sin-título-1.gif);
+   
+
+    
+}
+#img-cuadrada{
+    content: url(../img/BOTONES\ APARTADO\ ESCENARIO/CUADRADO-ESCENARIO.png);
+    z-index: -1;
+    position: relative;
+    
+}
+#img-cuadradaGif{
+    /*content: url(./../includes/BOTONES\ APARTADO\ ESCENARIO/MOVIMIENTO-RECTANGULO-AMARILLO.gif);*/
+    position: absolute;
+    width: 53.7%;
+    height: 67%;
+    transform: translate(-102.2%, -0.5%);
+    z-index:5;
+}
+#img-cuadradaEscenario{
+    position: absolute;
+    width: 55%;
+    height: 60.5%;
+    transform: translate(-100.7%,4.7%);
+    opacity: 0.9;
+}
+#fotoPJ{
+    position: absolute;
+    width: 40rem;
+    height: 40rem;
+    opacity: 0.9;
+       
+}
+.fotoPJjs{
+    display: none;
+    position: absolute;
+    content: url(../img/flechaAbajo.gif);
+}
+
+.spin{
+    animation: circle-spin infinite 10s linear;
+}
+
+@keyframes circle-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+#img-pj-1{
+    content: url(../img/BOTONES\ APARTADO\ ESCENARIO/BOTON_DESACTIVADO_PERSONAJE_INFERIOR_ARPIA.png);
+    transition: all 2s ease;
+}
+#img-pj-2{
+    content: url(../img/BOTONES\ APARTADO\ ESCENARIO/BOTON_DESACTIVADO_PERSONAJE_INFERIOR_EXPLORADORA.png);
+    transition: all 2s ease;
+}
+#img-pj-3{
+    content: url(../img/BOTONES\ APARTADO\ ESCENARIO/BOTON_DESACTIVADO_PERSONAJE_INFERIOR_MRBOCETO.png);
+    transition: all 2s ease;
+}
+#img-pj-4{
+    content: url(../img/BOTONES\ APARTADO\ ESCENARIO/BOTON_DESACTIVADO_PERSONAJE_INFERIOR_ROBOT.png);
+    transition: all 2s ease;
+}
+#img-pj-5{
+    content: url(../img/BOTONES\ APARTADO\ ESCENARIO/BOTON_DESACTIVADO_PERSONAJE_INFERIOR_TIBURON.png);
+    transition: all 2s ease;
+}
+#btn-pj-1:focus img {
+    content: url(../img/BOTONES\ APARTADO\ ESCENARIO/BOTON_ACTIVO_PERSONAJE_INFERIOR_ARPIA.png);
+    transition: all 2s ease;
+}
+#btn-pj-2:focus img {
+    content: url(../img/BOTONES\ APARTADO\ ESCENARIO/BOTON_ACTIVO_PERSONAJE_INFERIOR_EXPLORADORA.png);
+    transition: all 2s ease;
+}
+#btn-pj-3:focus img {
+    content: url(../img/BOTONES\ APARTADO\ ESCENARIO/BOTON_ACTIVO_PERSONAJE_INFERIOR_MRBOCETO.png);
+    transition: all 2s ease;
+}
+#btn-pj-4:focus img {
+    content: url(../img/BOTONES\ APARTADO\ ESCENARIO/BOTON_ACTIVO_PERSONAJE_INFERIOR_ROBOT.png);
+    transition: all 2s ease;
+}
+#btn-pj-5:focus img {
+    content: url(../img/BOTONES\ APARTADO\ ESCENARIO/BOTON_ACTIVO_PERSONAJE_INFERIOR_TIBURON.png);
+    transition: all 2s ease;
+}
+#img-pj-6{
+    content: url(../img/BOTONES\ APARTADO\ ESCENARIO/BOTON_DESACTIVADO_PERSONAJE_INFERIOR_ALIEN.png);
+    transition: all 2s ease;
+}
+#img-pj-7{
+    content: url(../img/BOTONES\ APARTADO\ ESCENARIO/BOTON_DESACTIVADO_PERSONAJE_INFERIOR_CABALLERO.png);
+    transition: all 2s ease;
+}
+#img-pj-8{
+    content: url(../img/BOTONES\ APARTADO\ ESCENARIO/BOTON_DESACTIVADO_PERSONAJE_INFERIOR_CALABAZA.png);
+    transition: all 2s ease;
+}
+#img-pj-9{
+    content: url(../img/BOTONES\ APARTADO\ ESCENARIO/BOTON_DESACTIVADO_PERSONAJE_INFERIOR_MONO.png);
+    transition: all 2s ease;
+}
+#img-pj-10{
+    content: url(../img/BOTONES\ APARTADO\ ESCENARIO/BOTON_DESACTIVADO_PERSONAJE_INFERIOR_PIRATA.png);
+    transition: all 2s ease;
+}
+#btn-pj-6:focus img {
+    content: url(../img/BOTONES\ APARTADO\ ESCENARIO/BOTON_ACTIVO_PERSONAJE_INFERIOR_ALIEN.png);
+    transition: all 2s ease;
+}
+#btn-pj-7:focus img {
+    content: url(../img/BOTONES\ APARTADO\ ESCENARIO/BOTON_ACTIVO_PERSONAJE_INFERIOR_CABALLERO.png);
+    transition: all 2s ease;
+}
+#btn-pj-8:focus img {
+    content: url(../img/BOTONES\ APARTADO\ ESCENARIO/BOTON_ACTIVO_PERSONAJE_INFERIOR_CALABAZA.png);
+    transition: all 2s ease;
+}
+#btn-pj-9:focus img {
+    content: url(../img/BOTONES\ APARTADO\ ESCENARIO/BOTON_ACTIVO_PERSONAJE_INFERIOR_MONO.png);
+    transition: all 2s ease;
+}
+#btn-pj-10:focus img {
+    content: url(../img/BOTONES\ APARTADO\ ESCENARIO/BOTON_ACTIVO_PERSONAJE_INFERIOR_PIRATA.png);
+    transition: all 2s ease;
+}
+
+button img{
+    transition: all 5s ease;
+}
+
+
+.img-pj-test2{
+    content: url(../resources/BOTONES\ APARTADO\ PERSONAJE/BOTONES_PJ/inactivoPalitoArriba.png);    
+}
+
+.relleno{
+    content: url(../resources/BOTONES\ APARTADO\ PERSONAJE/BOTONES_PJ/relleno.png);
+    display: none;
+}
+#cajaCirculo{
+    margin-left: 15%;
+}
+
+#caja-Descripcion{
+    font-family: 'Mohave', sans-serif;
+    font-size: 1.4em;
+}
+#columnaBotones{
+    margin-left: 7%;
+}
+
+
+#raya{
+    position: absolute;
+    width: 44%;
+    margin-left: -5%;
+    margin-top: 0.1%;
+    height: 0.2vh;
+}
+#rayaPj{
+    position: absolute;
+    width: 60%;
+    margin-left: -5%;
+    margin-top: 0.1%;
+    height: 0.2vh;
+}
+#parrafo-Habilidades{
+    font-family: 'spider_homeregular' ;
+    font-size: 2.5em;
+}
+#parrafo-Nombre{
+    font-family:'candy_beansregular';
+    font-size: 2em;
+}
+
+
+/*#caja-personajes-uno{
+    float: none;
+    position: absolute;
+    left: 7em;
+    top: 4.7em;
+    z-index: 1000;
+    background-color: #92AD40;
+
+}*/
+ /* button:active {
+    color: var(--drk-pink);
+  }
+  
+  button:active i {
+    background-color: var(--drk-pink);
+  }*/
+
+
+/** Boton de Sonido **/
+.image-sound{
+    position: fixed;
+    z-index: 10103;
+    top: 90%;
+    right: 20px;
+    text-align:end; 
+}
+
+/** Boton de Revista **/
+#img-botonRevista {
+    content: url(../resources/BOTONES\ REVISTA/revista.jpeg);
+}
+#img-revista {
+    content: url(./../resources/BOTONES\ REVISTA/boton-revista.png);
+}
+.revista {
+    text-align:center;
+}
+.single-image img{
+    height:auto;
+}
+
+
+  .escenario {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.image1 {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.image2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.paginaUno{
+    width: 100%;
+    height: 100vh;
+    clip-path: circle(7%);
+    background:rgba(0, 0, 0, 0.473);
+}
+
+.intro{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.logoFiT{
+    width: 10%;
+    height: 10%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.flechaAbajo{
+    width: 8%;
+    height: 8%;
+    position: absolute;    
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.titulo{
+    color: whitesmoke;
+    font-family:'spider_homeregular';
+    font-size: 5rem;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.subtitulo{
+    color: whitesmoke;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family:'spider_homeregular';
+}
+.paginaDos{
+    height: 100vh;
+    object-fit: cover;
+    margin: 0px;
+    padding: 0px;
+    background:rgba(38, 105, 61, 0.24);
+}
+.paginaTres{
+    height: 100vh;
+    object-fit: cover;
+    margin: 0px;
+    padding: 0px;
+    background:rgba(64, 38, 105, 0.24);
+}
+.paginaCuatro{
+    height: 100vh;
+    object-fit: cover;
+    margin: 0px;
+    padding: 0px;
+    background:rgba(105, 54, 38, 0.24);
+}
+.paginaCinco{
+    height: 100vh;
+    object-fit: cover;
+    margin: 0px;
+    padding: 0px;
+    background:rgba(38, 69, 105, 0.24);
+}
+.habilidad1{
+    height: 100vh;
+    object-fit: cover;
+    margin-bottom: 1%;
+    padding: 0px;
+    
+}
+.habilidad2{
+    height: 100vh;
+    object-fit: cover;
+    margin-bottom: 1%;
+    padding: 0px;
+   
+}
+.habilidad3{
+    height: 100vh;
+    object-fit: cover;
+    margin-bottom: 1%;
+    padding: 0px;
+   
+}
+#pj1{
+    height: 100vh;
+}
+#titulo-mod{
+    padding-top: 1%;
+    font-family: 'spider_homeregular' ;
+    font-size: 5vh; 
+}
+
+#subtitulo-mod{
+    font-family: 'Mohave', sans-serif;
+    font-size: 1.7rem; 
+}
+
+
+#img-botonCoin {
+    content: url(./../includes/botones/insert-coin-.gif);
+}
+#img-Coin {
+    content: url(./../includes/botones/insert-coin-.gif);
+}
+.insertCoin {
+    text-align:center;
+}
+.single-image img{
+    height:auto;
+}
+.divfancybox {
+    display: none;
+}

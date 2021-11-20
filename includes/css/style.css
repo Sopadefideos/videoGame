@@ -1,0 +1,119 @@
+button{
+    padding: 0!important;
+    
+}
+button:focus{
+    border: 0px;
+}
+button:active{
+    border: 0px;
+}
+
+#img-info {
+    content: url(../img/botones/normal/INFORMACIONNORMAL.png);
+}
+#img-pjs {
+    content: url(../img/botones/normal/PERSONAJES\ NORMAL.png);
+}
+#img-escn {
+    content: url(../img/botones/normal/ESCENARIO\ NORMAL.png);
+}
+#img-modo {
+    content: url(../img/botones/normal/MODO\ NORMAL.png);
+}
+
+
+/*HOVER POR SI SE QUIEREN USAR
+
+#img-info:hover{
+    content: url(../includes/botones/active/INFORMACION\ PUSH.png);
+}         
+#img-pjs:hover {
+    content: url(../includes/botones/active/PERSONAJES\ PUSH.png);
+}
+#img-escn:hover {
+    content: url(../includes/botones/active/ESCENARIO\ PUSH.png);
+}
+#img-modo:hover {
+    content: url(../includes/botones/active/MODO\ PUSH.png);
+}*/
+
+
+  
+#btn-info:focus img {
+    content: url(../img/botones/active/INFORMACION\ PUSH.png);
+}
+#btn-pjs:focus img {
+    content: url(../img/botones/active/PERSONAJES\ PUSH.png);
+}
+#btn-escn:focus img {
+    content: url(../img/botones/active/ESCENARIO\ PUSH.png);
+}
+#btn-modo:focus img {
+    content: url(../img/botones/active/MODO\ PUSH.png);
+}
+
+.idiomas{
+    display: flex;    
+}
+.idiomas button img{
+    width: 3vw;
+    height: 3vh;
+}
+  
+ /* button:active {
+    color: var(--drk-pink);
+  }
+  
+  button:active i {
+    background-color: var(--drk-pink);
+  }*/
+
+/** Boton de Sonido **/
+.image-sound{
+    position: fixed;
+    z-index: 10103;
+    top: 90%;
+    right: 20px;
+    text-align:end; 
+}
+
+/** Boton de Revista **/
+#img-botonRevista {
+    content: url(../img/BOTONES\ REVISTA/boton-revista.png);
+}
+#img-revista {
+    content: url(../img/BOTONES\ REVISTA/boton-revista.png);
+}
+.revista {
+    text-align:end;
+}
+.single-image img{
+    height:auto;
+}
+.divfancybox {
+    display: none;
+}
+
+
+
+/** Botton Insert Coin **/
+
+#img-botonCoin {
+    content: url(../img/botones/insert-coin-.gif);
+}
+#img-coin {
+    content: url(../img/botones/insert-coin-.gif);
+}
+
+
+.insertCoin {
+    width: 10%;
+}
+
+.titulo-mod{
+    padding-top: 1%;
+    font-family: 'spider_homeregular' ;
+    font-size: 5vh;
+ }
+
