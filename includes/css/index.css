@@ -265,11 +265,11 @@ button img{
 
 
 .img-pj-test2{
-    content: url(../resources/BOTONES\ APARTADO\ PERSONAJE/BOTONES_PJ/inactivoPalitoArriba.png);    
+    content: url(../img/BOTONES\ APARTADO\ PERSONAJE/BOTONES_PJ/inactivoPalitoArriba.png);    
 }
 
 .relleno{
-    content: url(../resources/BOTONES\ APARTADO\ PERSONAJE/BOTONES_PJ/relleno.png);
+    content: url(../img/BOTONES\ APARTADO\ PERSONAJE/BOTONES_PJ/relleno.png);
     display: none;
 }
 #cajaCirculo{
@@ -338,10 +338,10 @@ button img{
 
 /** Boton de Revista **/
 #img-botonRevista {
-    content: url(../resources/BOTONES\ REVISTA/revista.jpeg);
+    content: url(../img/BOTONES\ REVISTA/revista.jpeg);
 }
 #img-revista {
-    content: url(./../resources/BOTONES\ REVISTA/boton-revista.png);
+    content: url(./../img/BOTONES\ REVISTA/boton-revista.png);
 }
 .revista {
     text-align:center;
@@ -474,10 +474,10 @@ button img{
 
 
 #img-botonCoin {
-    content: url(./../includes/botones/insert-coin-.gif);
+    content: url(./../img/botones/insert-coin-.gif);
 }
 #img-Coin {
-    content: url(./../includes/botones/insert-coin-.gif);
+    content: url(./../img/botones/insert-coin-.gif);
 }
 .insertCoin {
     text-align:center;
