@@ -86,7 +86,7 @@ button:active{
     content: url(../../resources/BOTONES\ REVISTA/boton-revista.png);
 }
 .revista {
-    text-align:center;
+    text-align:end;
 }
 .single-image img{
     height:auto;
@@ -94,8 +94,26 @@ button:active{
 .divfancybox {
     display: none;
 }
+
+
+
+/** Botton Insert Coin **/
+
+#img-botonCoin {
+    content: url(../../includes/botones/insert-coin-.gif);
+}
+#img-coin {
+    content: url(../../includes/botones/insert-coin-.gif);
+}
+
+
+.insertCoin {
+    width: 10%;
+}
+
 .titulo-mod{
     padding-top: 1%;
     font-family: 'spider_homeregular' ;
     font-size: 5vh;
  }
+

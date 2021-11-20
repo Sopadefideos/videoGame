@@ -34,3 +34,20 @@ $(function(){
     closeSpeed:'normal',
   });
 });
+
+// Remove FancyBox
+function myFunction() {
+  var x = document.getElementsByClassName("fancybox-overlay");
+  
+  x[0].style.display = "none";
+}
+
+jQuery(document).ready(function($){
+  $(".fancybox").on("click", function(){
+      $.fancybox({
+        href: this.href,
+        type: $(this).data("type")
+      }); // fancybox
+      return false   
+  }); // on
+}); // ready
