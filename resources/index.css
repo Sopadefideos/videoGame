@@ -124,11 +124,33 @@ button:active{
 
     
 }
+#img-cuadrada{
+    content: url(./../includes/BOTONES\ APARTADO\ ESCENARIO/CUADRADO-ESCENARIO.png);
+    z-index: -1;
+    position: relative;
+    
+}
+#img-cuadradaGif{
+    /*content: url(./../includes/BOTONES\ APARTADO\ ESCENARIO/MOVIMIENTO-RECTANGULO-AMARILLO.gif);*/
+    position: absolute;
+    width: 53.7%;
+    height: 67%;
+    transform: translate(-102.2%, -0.5%);
+    z-index:5;
+}
+#img-cuadradaEscenario{
+    position: absolute;
+    width: 55%;
+    height: 60.5%;
+    transform: translate(-100.7%,4.7%);
+    opacity: 0.9;
+}
 #fotoPJ{
     position: absolute;
-    left: 30%;
-    bottom: 5%;
-    content: url(./../includes/idle-calabaza.gif)
+    width: 35rem;
+    height: 35rem;
+    transform: translate(10%,5%);
+       
 }
 .fotoPJjs{
     display: none;
@@ -136,10 +158,19 @@ button:active{
     content: url(./../includes/flechaAbajo.gif);
 }
 
-.img-Habilidades{
-    
-    
+.spin{
+    animation: circle-spin infinite 10s linear;
 }
+
+@keyframes circle-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 
 #img-pj-1{
     content: url(../includes/BOTONES\ APARTADO\ ESCENARIO/BOTON_DESACTIVADO_PERSONAJE_INFERIOR_ARPIA.png);
@@ -249,6 +280,13 @@ button img{
 
 
 #raya{
+    position: absolute;
+    width: 44%;
+    margin-left: -5%;
+    margin-top: 0.1%;
+    height: 0.2vh;
+}
+#rayaPj{
     position: absolute;
     width: 60%;
     margin-left: -5%;
@@ -413,5 +451,14 @@ button img{
     margin: 0px;
     padding: 0px;
     background:rgba(64, 38, 105, 0.24);
+}
+#titulo-mod{
+    padding-top: 1%;
+    font-family: 'spider_homeregular' ;
+    font-size: 5vh; 
+}
+#subtitulo-mod{
+    font-family: 'Mohave', sans-serif;
+    font-size: 1.7rem; 
 }
 
