@@ -3,6 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+#img-insertCoin{
+    height: 5rem;
+}
+#btn-insertCoin{
+    margin-left: 70%;
+}
 body{ 
     background-image: url(./../includes/FONDO.png);
     background-image:  no-repeat center center fixed;
@@ -147,9 +153,9 @@ button:active{
 }
 #fotoPJ{
     position: absolute;
-    width: 35rem;
-    height: 35rem;
-    transform: translate(10%,5%);
+    width: 40rem;
+    height: 40rem;
+    opacity: 0.9;
        
 }
 .fotoPJjs{
@@ -335,7 +341,7 @@ button img{
     content: url(../resources/BOTONES\ REVISTA/revista.jpeg);
 }
 #img-revista {
-    content: url(./../resources/BOTONES REVISTA/boton-revista.png);
+    content: url(./../resources/BOTONES\ REVISTA/boton-revista.png);
 }
 .revista {
     text-align:center;
@@ -434,31 +440,51 @@ button img{
 .habilidad1{
     height: 100vh;
     object-fit: cover;
-    margin: 0px;
+    margin-bottom: 1%;
     padding: 0px;
-    background:rgba(38, 69, 105, 0.24);
+    
 }
 .habilidad2{
     height: 100vh;
     object-fit: cover;
-    margin: 0px;
+    margin-bottom: 1%;
     padding: 0px;
-    background:rgba(105, 54, 38, 0.24);
+   
 }
 .habilidad3{
     height: 100vh;
     object-fit: cover;
-    margin: 0px;
+    margin-bottom: 1%;
     padding: 0px;
-    background:rgba(64, 38, 105, 0.24);
+   
+}
+#pj1{
+    height: 100vh;
 }
 #titulo-mod{
     padding-top: 1%;
     font-family: 'spider_homeregular' ;
     font-size: 5vh; 
 }
+
 #subtitulo-mod{
     font-family: 'Mohave', sans-serif;
     font-size: 1.7rem; 
 }
 
+
+#img-botonCoin {
+    content: url(./../includes/botones/insert-coin-.gif);
+}
+#img-Coin {
+    content: url(./../includes/botones/insert-coin-.gif);
+}
+.insertCoin {
+    text-align:center;
+}
+.single-image img{
+    height:auto;
+}
+.divfancybox {
+    display: none;
+}
