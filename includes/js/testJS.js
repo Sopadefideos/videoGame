@@ -102,3 +102,12 @@ let tiersPj = [
 
 
   }
+
+const tarjeta = document.querySelector('.tarjeta');
+const fundaTarjeta = document.querySelector('.fundaTarjeta');
+
+fundaTarjeta.addEventListener('mousemove', (e)=>{
+  //console.log(e.pageX);
+  let ejeX = window.innerWidth / 2;
+});
+
