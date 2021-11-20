@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="resources/index.css">
+        <link rel="stylesheet" href="resources/css/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="includes/fuentes/spider/stylesheet.css">
+        <link rel="stylesheet" type="text/css" href="includes/fuentes/candy/stylesheet.css">
+        <link href="https://fonts.googleapis.com/css2?family=Mohave:wght@300&display=swap" rel="stylesheet">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+        
+        <!-- Add jQuery library -->
+        <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <!-- Add fancyBox -->
+        <link rel="stylesheet" href="resources/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+        <script type="text/javascript" src="resources/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+        <title>Fight in Time</title>
+        <link rel="shortcut icon" href="includes/Logo.png">
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">     
+                    <div class="col-md-1 col-7 ">
+                        <button type="button" class="btn"><img src="includes/Logo_y_nombre_horizontal.png" alt="" class="img-fluid"></button>    
+                    </div>
+
+                    <div class="container">
+                        <div class="row justify-content-md-center">
+                            <div class="col-md-2 col-7">
+                                <button type="button" class="btn rounded-pill btn-warning" id="btn-info">
+                                    <img class="img-fluid" src="" id="img-info"/>
+                                </button>
+                            </div>
+
+                            <div class="col-md-2 col-7">
+                                <button type="button" class="btn rounded-pill btn-warning" id="btn-pjs">
+                                    <img alt="" class="img-fluid" id="img-pjs"/>
+                                </button>
+                            </div>
+
+                            <div class="col-md-2 col-7">
+                                <button type="button" class="btn rounded-pill btn-warning"id="btn-escn">
+                                    <img alt="" class="img-fluid" id="img-escn"/>
+                                </button>
+                            </div> 
+
+                            <div class="col-md-2 col-7">
+                                <button type="button" class="btn rounded-pill btn-warning" id="btn-modo">
+                                    <img alt="" class="img-fluid" id="img-modo"/>
+                                </button>
+                            </div>
+
+                            <div class="col-md-2 col-7">
+                                <button type="button" class="btn rounded-pill btn-warning" id="btn-modo">
+                                    <img alt="" class="img-fluid" id="img-modo"/>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="revista">
+                        <a class="single-image" href="#revista-pdf">
+                            <img id="img-botonRevista" width="50%" alt=""/>
+                        </a>
+                        <div id="revista-pdf" class="divfancybox">
+                            <a href="https://issuu.com/seagullgameschool/docs/fight_in_time" target="_blank">
+                                <img src="resources/BOTONES REVISTA/revista.jpeg" width="500px"; height="600px";>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="insertCoin">
+                        <button class="single-image btn shadow-none" href="#insert-coin">
+                            <img id="img-botonCoin" class="img-fluid" alt=""/>
+                        </button>
+                    
+                        <div id="insert-coin" class="divfancybox">
+                            <button  onclick="myFunction()">
+                                <a class="fancybox" data-type="iframe" href="https://www.youtube.com/embed/YE7VzlLtp-4" title="youtube">
+                                    <img src="includes/botones/insert-coin-.gif" width="900px"; height="600px";>
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div id="myModal" class="modal fade">
+            <div class="modal-dialog modal-fullscreen">
+              <div class="modal-content">
+        
+                <div class="modal-header">
+                  <h5 class="modal-title">Fight in Time</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+        
+                <div class="modal-body">
+                  <iframe id="cartoonVideo" class="embed-responsive-item" width="100%" height="100%" src="//www.youtube.com/embed/YE7VzlLtp-4" allowfullscreen></iframe>
+                </div>
+        
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary p-1" data-bs-dismiss="modal">Cerrar</button>
+                </div> 
+        
+              </div>
+            </div>
+          </div>
+        
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <br/><br/><br/>
+              </div>
+            </div>
+          </div>
+        
+          <div class="container-fluid mb-5">             
+            <div class="row " >
+              <div class="col-6 col-md-5">
+                <div class="row" id="columnaBotones">
+                  <div class="row justify-content-md-center gx-5" style="margin-top: 5%;margin-left: -10%;" id="botonesArriba">
+        
+                    <div class="col-2 col-md-2" >
+                      <button type="button" class="btn shadow-none btnPJ" id="btn-pj-1" onclick="muestraImg(this.id)">
+                        <img alt="" class="img-fluid img-pj-test" id="img-pj-1"/>
+                      </button>
+                    </div>
+        
+                    <div class="col-2 col-md-2">
+                      <button type="button" class="btn shadow-none btnPJ" id="btn-pj-2" onclick="muestraImg(this.id)" >
+                        <img alt="" class="img-fluid img-pj-test"/ id="img-pj-2">
+                      </button>
+                    </div>
+        
+                    <div class="col-2 col-md-2">
+                      <button type="button" class="btn shadow-none btnPJ" id="btn-pj-3" onclick="muestraImg(this.id)">
+                        <img alt="" class="img-fluid img-pj-test"/ id="img-pj-3">
+                      </button>
+                    </div>
+        
+                    <div class="col-2 col-md-2">
+                      <button type="button" class="btn shadow-none btnPJ" id="btn-pj-4" onclick="muestraImg(this.id)">
+                        <img alt="" class="img-fluid img-pj-test"/ id="img-pj-4">
+                      </button>
+                    </div>
+        
+                    <div class="col-2 col-md-2">
+                      <button type="button" class="btn shadow-none btnPJ" id="btn-pj-5" onclick="muestraImg(this.id)">
+                        <img alt="" class="img-fluid img-pj-test"/ id="img-pj-5">
+                      </button>
+                    </div>
+        
+                  </div>
+        
+                  <div class="row overflow-visible columnaIzquierda" style="margin-top: -1%;">
+                    <div class="col-12 col-md-12 overflow-visible" >
+                      <hr class="overflow-visible" id="raya"/>
+                    </div> 
+                  </div>
+        
+                  <div class="row justify-content-md-center gx-5 columnaIzquierda" style="margin-top: -1.5%; margin-left: -15%;">
+        
+                    <div class="col-1 col-md-2">
+                      <button type="button" class="btn shadow-none" id="btn-pj-" >
+                        <img alt="" class="img-fluid relleno"/>
+                      </button>
+                    </div>
+        
+                    <div class="col-2 col-md-2">
+                      <button type="button" class="btn shadow-none btnPJ" id="btn-pj-6" onclick="muestraImg(this.id)">
+                        <img alt="" class="img-fluid" id="img-pj-6"/>
+                      </button>
+                    </div>
+        
+                    <div class="col-2 col-md-2">
+                      <button type="button" class="btn shadow-none btnPJ" id="btn-pj-7" onclick="muestraImg(this.id)">
+                        <img alt="" class="img-fluid" id="img-pj-7"/>
+                      </button>
+                    </div>
+        
+                    <div class="col-2 col-md-2">
+                      <button type="button" class="btn shadow-none btnPJ" id="btn-pj-8" onclick="muestraImg(this.id)">
+                        <img alt="" class="img-fluid" id="img-pj-8"/>
+                      </button>
+                    </div>
+        
+                    <div class="col-2 col-md-2">
+                      <button type="button" class="btn shadow-none btnPJ" id="btn-pj-9" onclick="muestraImg(this.id)">
+                        <img alt="" class="img-fluid" id="img-pj-9"/>
+                      </button>
+                    </div>
+        
+                    <div class="col-2 col-md-2">
+                      <button type="button" class="btn shadow-none btnPJ" id="btn-pj-10" onclick="muestraImg(this.id)">
+                        <img alt="" class="img-fluid" id="img-pj-10"/>
+                      </button>
+                    </div>
+        
+                  </div> 
+        
+                  <div class="row mt-5 columnaIzquierda">
+                    <div class="col-md-12 ">
+                      <p id="parrafo-Nombre" class="text-center"></p>
+                    </div>
+                  </div>
+        
+                  <div class="row align-items-center gx-5 columnaIzquierda">
+                    <div class="col-md-12  ">
+                      <p id="caja-Descripcion" class="text-center"></p>
+                    </div>
+                  </div>
+        
+                </div>
+              </div> 
+        
+              <div class="col-6 col-md-7">
+        
+                <img src="" alt="" class="img-fluid" id="img-cuadrada">
+                <img src="./includes/vacio.png" alt="" class="img-fluid" id="img-cuadradaGif">
+                <video src="./includes/vacio.png" alt="" id="img-cuadradaEscenario" autoplay loop muted></video>
+        
+              </div>
+            </div>
+          </div>
+
+        <div class="image-sound">
+            <div id="ConSonido">
+                <input onclick="setHalfVolume(); switchVisible();" type="image" src="includes/botones/active/CON SONIDO.png" width="30%" name="submit" alt="submit"/>
+            </div>
+            <div style="display: none;" id="SinSonido">
+                <input  onclick="setFullVolume(); switchVisible();" type="image" src="includes/botones/normal/SIN SONIDO.png" width="30%" name="submit"  alt="submit"/>
+            </div>
+
+            <audio id="sound" class="sonido-escenario" src="" autoplay loop>
+            </audio>
+        </div>
+
+    <br><br><br><br>
+
+    <script src="resources/js/app.js"></script>
+    <script src="resources/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+  </body>
+</html>
