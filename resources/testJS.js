@@ -34,6 +34,19 @@ let imagenPersonaje = [
 './includes/BOTONES APARTADO PERSONAJE/PERSONAJES FINAL/idlepirata.gif'
 ];
 
+let tiersPj = [
+  ['./includes/BOTONES APARTADO PERSONAJE/TiersFinales/Arpia/tier1.gif','./includes/BOTONES APARTADO PERSONAJE/TiersFinales/Arpia/tier2.gif','./includes/BOTONES APARTADO PERSONAJE/TiersFinales/Arpia/tier3.gif'],
+  ['./includes/BOTONES APARTADO PERSONAJE/TiersFinales/Exploradora/tier1.gif','./includes/BOTONES APARTADO PERSONAJE/TiersFinales/Exploradora/tier2.gif','./includes/BOTONES APARTADO PERSONAJE/TiersFinales/Exploradora/tier3.gif'],
+  ['./includes/BOTONES APARTADO PERSONAJE/TiersFinales/MrBoceto/tier1.gif','./includes/BOTONES APARTADO PERSONAJE/TiersFinales/MrBoceto/tier2.gif','./includes/BOTONES APARTADO PERSONAJE/TiersFinales/MrBoceto/tier3.gif'],
+  ['./includes/BOTONES APARTADO PERSONAJE/TiersFinales/Robot/tier1.gif','./includes/BOTONES APARTADO PERSONAJE/TiersFinales/Robot/tier2.gif','./includes/BOTONES APARTADO PERSONAJE/TiersFinales/Robot/tier3.gif'],
+  ['./includes/BOTONES APARTADO PERSONAJE/TiersFinales/Tiburón/tier1.gif','./includes/BOTONES APARTADO PERSONAJE/TiersFinales/Tiburón/tier2.gif','./includes/BOTONES APARTADO PERSONAJE/TiersFinales/Tiburón/tier3.gif'],
+  ['./includes/BOTONES APARTADO PERSONAJE/TiersFinales/alien/tier-1.gif','./includes/BOTONES APARTADO PERSONAJE/TiersFinales/alien/tier-2.gif','./includes/BOTONES APARTADO PERSONAJE/TiersFinales/alien/tier-3.gif'],
+  ['./includes/BOTONES APARTADO PERSONAJE/TiersFinales/caballero/tier1.gif','./includes/BOTONES APARTADO PERSONAJE/TiersFinales/caballero/tier2.gif','./includes/BOTONES APARTADO PERSONAJE/TiersFinales/caballero/tier3.gif'],
+  ['./includes/BOTONES APARTADO PERSONAJE/TiersFinales/calabaza/tier1.gif','./includes/BOTONES APARTADO PERSONAJE/TiersFinales/calabaza/tier2.gif','./includes/BOTONES APARTADO PERSONAJE/TiersFinales/calabaza/tier3.gif'],
+  ['./includes/BOTONES APARTADO PERSONAJE/TiersFinales/Mono/tier1.gif','./includes/BOTONES APARTADO PERSONAJE/TiersFinales/Mono/tier2.gif','./includes/BOTONES APARTADO PERSONAJE/TiersFinales/Mono/tier3.gif'],
+  ['./includes/BOTONES APARTADO PERSONAJE/TiersFinales/Pirata/tier1.gif','./includes/BOTONES APARTADO PERSONAJE/TiersFinales/Pirata/tier2.gif','./includes/BOTONES APARTADO PERSONAJE/TiersFinales/Pirata/tier3.gif']  
+]
+
 
 
   console.log(botones.indexOf('btn-pj-1'));
@@ -59,7 +72,9 @@ let imagenPersonaje = [
     let cajaDescripcion = document.getElementById('caja-Descripcion');
     let parrafoHabilidades = document.getElementById('parrafo-Habilidades');
     let imagenPj = document.getElementById('fotoPJ');
-
+    let tier = document.getElementsByClassName('tier');
+    let flecha = document.getElementById('flechaPj');
+    console.log(tier);
     /*console.log(indiceDelBoton);           
     for(let i = 0; i<botones.length;i++){
       //claseImagenDinamica[i].style.display="none";
@@ -80,6 +95,10 @@ let imagenPersonaje = [
     cajaDescripcion.innerHTML = descripciones[indiceDelBoton];
     parrafoHabilidades.innerHTML = habilidades[indiceDelBoton];
     imagenPj.src = imagenPersonaje[indiceDelBoton];
+    flecha.style.display="initial";
+    for(let i = 0; i<tier.length;i++){
+      tier[i].src=tiersPj[indiceDelBoton][i];
+    }
 
 
   }
