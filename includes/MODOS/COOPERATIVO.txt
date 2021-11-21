@@ -1,0 +1,6 @@
+-Modo cooperativo local (Jugador vs Jugador): Se trata del modo de juego más importante del proyecto. 
+Fight in time no cuenta con modo online, esto es debido a que en nuestra compañía pensamos que el ámbito social y familiar de los juegos de lucha actuales se ha ido perdiendo poco a poco. 
+Con Fight in time creemos que ésto puede ser revitalizado, y tal como han demostrado juegos como “Super Smash Bros”, este aspecto sigue siendo muy interesante para mucha cantidad de jugadores. 
+El modo cooperativo cuenta con dos vertienes:
+-Modo versus 1 vs 1.
+-Modo versus 2 vs 2.
