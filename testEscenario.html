@@ -54,77 +54,219 @@
           <button type="button" class="btn shadow-none"><img src="includes/img/Logo_y_nombre_horizontal.png" alt=""
               class="img-fluid"></button>
         </div>
-
-        <div class="container">
-          <div class="row justify-content-md-center">
-            <div class="col-md-2 col-7">
-              <button type="button" class="btn rounded-pill btn-warning shadow-none" id="btn-info"><img
-                  class="img-fluid" src="" id="img-info" /> </button>
-            </div>
-
-            <div class="col-md-2 col-7">
-              <button type="button" class="btn rounded-pill btn-warning shadow-none" id="btn-pjs"> <img alt=""
-                  class="img-fluid" id="img-pjs" /></button>
-            </div>
-
-            <div class="col-md-2 col-7">
-              <button type="button" class="btn rounded-pill btn-warning shadow-none" id="btn-escn"> <img alt=""
-                  class="img-fluid" id="img-escn" /></button>
-            </div>
+  </nav>
 
 
-            <div class="col-md-2 col-7">
-              <div class="dropdown">
-                <button type="button" class="btn rounded-pill btn-warning shadow-none" id="btn-modo"
-                  data-bs-toggle="dropdown" aria-expanded="false" />
-                <img alt="" class="img-fluid" id="img-modo" />
-                </button>
-                <ul class="dropdown-menu mt-3 border-0" aria-labelledby="btn-modo">
-                  <li><button type="button" class="btn rounded-pill btn-warning mb-1 shadow-none" id="btn-modo-vs"><img
-                        alt="" class="img-fluid" id="img-modo-vs" /></button></li>
-                  <li><button type="button" class="btn rounded-pill btn-warning mb-1 shadow-none"
-                      id="btn-modo-arcade"><img alt="" class="img-fluid" id="img-modo-arcade" /></button></li>
-                  <li><button type="button" class="btn rounded-pill btn-warning mb-1 shadow-none"
-                      id="btn-modo-cooperativo"><img alt="" class="img-fluid" id="img-modo-cooperativo" /></button></li>
-                  <li><button type="button" class="btn rounded-pill btn-warning mb-1 shadow-none"
-                      id="btn-modo-torneo"><img alt="" class="img-fluid" id="img-modo-torneo" /></button></li>
-                </ul>
-              </div>
-            </div>
+  <div id="myModal" class="modal fade">
+    <div class="modal-dialog modal-fullscreen">
+      <div class="modal-content">
 
-          </div>
+        <div class="modal-header">
+          <h5 class="modal-title">Fight in Time</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
 
-        <div class="row justify-content-md-center g-1" style="width: 10vw;">
-          <div class="col-md-2 col-7 align-self-end">
-            <button type="button" class="btn btn-light shadow-none"><img
-                src="includes/img/botones/language/COREANO IDIOMA.png" alt="" class="img-fluid"></button>
-          </div>
-          <div class="col-md-2 col-7 align-self-end">
-            <button type="button" class="btn btn-light shadow-none"><img
-                src="includes/img/botones/language/JAPONES IDIOMA.png" alt="" class="img-fluid"></button>
-          </div>
-          <div class="col-md-2 col-7 align-self-end">
-            <button type="button" class="btn btn-light shadow-none"><img
-                src="includes/img/botones/language/FRANCES IDIOMA.png" alt="" class="img-fluid"></button>
-          </div>
-          <div class="w-100"></div>
-          <div class="col-md-2 col-7 align-self-end">
-            <button type="button" class="btn btn-light shadow-none"><img
-                src="includes/img/botones/language/INGLES IDIOMA.png" alt="" class="img-fluid"></button>
-          </div>
-          <div class="col-md-2 col-7 align-self-end">
-            <button type="button" class="btn btn-light shadow-none"><img
-                src="includes/img/botones/language/ESPAÑOL IDIOMA.png" alt="" class="img-fluid"></button>
-          </div>
+        <div class="modal-body">
+          <iframe id="cartoonVideo" class="embed-responsive-item" width="100%" height="100%"
+            src="//www.youtube.com/embed/YE7VzlLtp-4" allowfullscreen></iframe>
         </div>
 
-        <div class="col-md-2 col-7 ">
-          <button type="button" class="btn btn-dark shadow-none" data-bs-toggle="modal" data-bs-target="#myModal"
-            id="btn-insertCoin"><img src="includes/img/botones/icoin.gif" alt="" class="img-fluid"></button>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary p-1" data-bs-dismiss="modal">Cerrar</button>
         </div>
+
       </div>
     </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <br /><br /><br />
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container-fluid mb-5">
+    <div class="row ">
+      <div class="col-6 col-md-5">
+        <div class="row" id="columnaBotones">
+          <div class="row justify-content-md-center gx-5" style="margin-top: 5%;margin-left: -10%;" id="botonesArriba">
+
+            <div class="col-2 col-md-2">
+              <button type="button" class="btn shadow-none btnPJ" id="btn-pj-1" onclick="muestraImg(this.id)">
+                <img alt="" class="img-fluid img-pj-test" id="img-pj-1" />
+              </button>
+            </div>
+
+            <div class="col-2 col-md-2">
+              <button type="button" class="btn shadow-none btnPJ" id="btn-pj-2" onclick="muestraImg(this.id)">
+                <img alt="" class="img-fluid img-pj-test" / id="img-pj-2">
+              </button>
+            </div>
+
+            <div class="col-2 col-md-2">
+              <button type="button" class="btn shadow-none btnPJ" id="btn-pj-3" onclick="muestraImg(this.id)">
+                <img alt="" class="img-fluid img-pj-test" / id="img-pj-3">
+              </button>
+            </div>
+
+            <div class="col-2 col-md-2">
+              <button type="button" class="btn shadow-none btnPJ" id="btn-pj-4" onclick="muestraImg(this.id)">
+                <img alt="" class="img-fluid img-pj-test" / id="img-pj-4">
+              </button>
+            </div>
+
+            <div class="col-2 col-md-2">
+              <button type="button" class="btn shadow-none btnPJ" id="btn-pj-5" onclick="muestraImg(this.id)">
+                <img alt="" class="img-fluid img-pj-test" / id="img-pj-5">
+              </button>
+            </div>
+
+          </div>
+
+          <div class="row overflow-visible columnaIzquierda" style="margin-top: -1%;">
+
+            <div class="col-12 col-md-12 overflow-visible">
+              <hr class="overflow-visible" id="raya" />
+            </div>
+
+          </div>
+
+          <div class="row justify-content-md-center gx-5 columnaIzquierda"
+            style="margin-top: -1.5%; margin-left: -15%;">
+
+            <div class="col-1 col-md-2">
+              <button type="button" class="btn shadow-none" id="btn-pj-">
+                <img alt="" class="img-fluid relleno" />
+              </button>
+            </div>
+
+            <div class="col-2 col-md-2">
+              <button type="button" class="btn shadow-none btnPJ" id="btn-pj-6" onclick="muestraImg(this.id)">
+                <img alt="" class="img-fluid" id="img-pj-6" />
+              </button>
+            </div>
+
+            <div class="col-2 col-md-2">
+              <button type="button" class="btn shadow-none btnPJ" id="btn-pj-7" onclick="muestraImg(this.id)">
+                <img alt="" class="img-fluid" id="img-pj-7" />
+              </button>
+            </div>
+
+            <div class="col-2 col-md-2">
+              <button type="button" class="btn shadow-none btnPJ" id="btn-pj-8" onclick="muestraImg(this.id)">
+                <img alt="" class="img-fluid" id="img-pj-8" />
+              </button>
+            </div>
+
+            <div class="col-2 col-md-2">
+              <button type="button" class="btn shadow-none btnPJ" id="btn-pj-9" onclick="muestraImg(this.id)">
+                <img alt="" class="img-fluid" id="img-pj-9" />
+              </button>
+            </div>
+
+            <div class="col-2 col-md-2">
+              <button type="button" class="btn shadow-none btnPJ" id="btn-pj-10" onclick="muestraImg(this.id)">
+                <img alt="" class="img-fluid" id="img-pj-10" />
+              </button>
+            </div>
+          </div>
+
+          <div class="row mt-5 columnaIzquierda">
+            <div class="col-md-12 ">
+              <p id="parrafo-Nombre" class="text-center"></p>
+            </div>
+          </div>
+          <div class="row align-items-center gx-5 columnaIzquierda">
+            <div class="col-md-12  ">
+              <p id="caja-Descripcion" class="text-center"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-7">
+
+        <img src="" alt="" class="img-fluid" id="img-cuadrada">
+        <img src="./includes/vacio.png" alt="" class="img-fluid" id="img-cuadradaGif">
+        <video src="./includes/vacio.png" alt="" id="img-cuadradaEscenario" autoplay loop muted></video>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row justify-content-md-center">
+      <div class="col-md-2 col-7">
+        <button type="button" class="btn rounded-pill btn-warning shadow-none" id="btn-info"><img class="img-fluid"
+            src="" id="img-info" /> </button>
+      </div>
+
+      <div class="col-md-2 col-7">
+        <button type="button" class="btn rounded-pill btn-warning shadow-none" id="btn-pjs"> <img alt=""
+            class="img-fluid" id="img-pjs" /></button>
+      </div>
+
+      <div class="col-md-2 col-7">
+        <button type="button" class="btn rounded-pill btn-warning shadow-none" id="btn-escn"> <img alt=""
+            class="img-fluid" id="img-escn" /></button>
+      </div>
+
+
+      <div class="col-md-2 col-7">
+        <div class="dropdown">
+          <button type="button" class="btn rounded-pill btn-warning shadow-none" id="btn-modo" data-bs-toggle="dropdown"
+            aria-expanded="false" />
+          <img alt="" class="img-fluid" id="img-modo" />
+          </button>
+          <ul class="dropdown-menu mt-3 border-0" aria-labelledby="btn-modo">
+            <li><button type="button" class="btn rounded-pill btn-warning mb-1 shadow-none" id="btn-modo-vs"><img alt=""
+                  class="img-fluid" id="img-modo-vs" /></button></li>
+            <li><button type="button" class="btn rounded-pill btn-warning mb-1 shadow-none" id="btn-modo-arcade"><img
+                  alt="" class="img-fluid" id="img-modo-arcade" /></button></li>
+            <li><button type="button" class="btn rounded-pill btn-warning mb-1 shadow-none"
+                id="btn-modo-cooperativo"><img alt="" class="img-fluid" id="img-modo-cooperativo" /></button></li>
+            <li><button type="button" class="btn rounded-pill btn-warning mb-1 shadow-none" id="btn-modo-torneo"><img
+                  alt="" class="img-fluid" id="img-modo-torneo" /></button></li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="row justify-content-md-center g-1" style="width: 10vw;">
+    <div class="col-md-2 col-7 align-self-end">
+      <button type="button" class="btn btn-light shadow-none"><img
+          src="includes/img/botones/language/COREANO IDIOMA.png" alt="" class="img-fluid"></button>
+    </div>
+    <div class="col-md-2 col-7 align-self-end">
+      <button type="button" class="btn btn-light shadow-none"><img
+          src="includes/img/botones/language/JAPONES IDIOMA.png" alt="" class="img-fluid"></button>
+    </div>
+    <div class="col-md-2 col-7 align-self-end">
+      <button type="button" class="btn btn-light shadow-none"><img
+          src="includes/img/botones/language/FRANCES IDIOMA.png" alt="" class="img-fluid"></button>
+    </div>
+    <div class="w-100"></div>
+    <div class="col-md-2 col-7 align-self-end">
+      <button type="button" class="btn btn-light shadow-none"><img src="includes/img/botones/language/INGLES IDIOMA.png"
+          alt="" class="img-fluid"></button>
+    </div>
+    <div class="col-md-2 col-7 align-self-end">
+      <button type="button" class="btn btn-light shadow-none"><img
+          src="includes/img/botones/language/ESPAÑOL IDIOMA.png" alt="" class="img-fluid"></button>
+    </div>
+  </div>
+
+  <div class="col-md-2 col-7 ">
+    <button type="button" class="btn btn-dark shadow-none" data-bs-toggle="modal" data-bs-target="#myModal"
+      id="btn-insertCoin"><img src="includes/img/botones/icoin.gif" alt="" class="img-fluid"></button>
+  </div>
+  </div>
+  </div>
   </nav>
 
 
