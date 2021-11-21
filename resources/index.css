@@ -347,7 +347,7 @@ button img{
     content: url(../resources/BOTONES\ REVISTA/revista.jpeg);
 }
 #img-revista {
-    content: url(./../resources/BOTONES\ REVISTA/boton-revista.png);
+    content: url(../resources/BOTONES\ REVISTA/boton-revista.png);
 }
 .revista {
     text-align:center;
@@ -420,7 +420,7 @@ button img{
     object-fit: cover;
     margin: 0px;
     padding: 0px;
-    background:rgba(57, 162, 194, 0.336);
+    background:rgba(157, 175, 90, 0.336);
 }
 .paginaTres{
     height: 100vh;
