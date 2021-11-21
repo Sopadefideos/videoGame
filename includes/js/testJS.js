@@ -11,40 +11,40 @@ let descripciones = ['Reina de las arpías y una de las principales antagonistas
   'Protagonista de la futura serie de animación espacial “Deep Space”. Se trata del líder de la escuadra primate de exploración 5 y se caracteriza por ser un capitán decidido y valiente. Su capacidad para utilizar las herramientas a su disposición son excelentes.',
   'Protagonista de la futura serie de animación “Dark Seas”. Barbasucia fue considerado uno de los mayores piratas que jamás hayan navegado los siete mares, pero encontró su final en una de sus tantas aventuras. Ahora ha vuelto a la vida para terminar el viaje que una vez empezó. Barbasucia se caracteriza por su uso gran uso de cañón y espada.',];
 let Nombres = ['HERA', 'NAKE', 'MR. BOCETO', 'TECHNEY', 'ULDAH', "RAG'HOR", 'SYR AIMERIC', 'ELLAINE', 'CLARK', 'EIGHARD BARBASUCIA'];
-let imagenHabilidades = ['../img/BOTONES APARTADO PERSONAJE/PERSONAJES/HERA_ARPIA/HABILIDADES-ARPIA.gif',
-  '../img/BOTONES APARTADO PERSONAJE/PERSONAJES/NAKE_EXPLORADORA/HABILIDADES-EXPLORADORA.gif',
-  '../img/BOTONES APARTADO PERSONAJE/PERSONAJES/MR_BOCETO_BOCETO/HABILIDADES-MR-BOCETO.gif',
-  '../img/BOTONES APARTADO PERSONAJE/PERSONAJES/TECHNEY_ROBOT/HABILIDADES-ROBOT.gif',
-  '../img/BOTONES APARTADO PERSONAJE/PERSONAJES/ULDAH_TIBURON/HABILIDADES-TIBURON.gif',
-  '../img/BOTONES APARTADO PERSONAJE/PERSONAJES/RAG´HUR_ALIEN/HABILIDADES-ALIEN.gif',
-  '../img/BOTONES APARTADO PERSONAJE/PERSONAJES/SYR_AIMERIC_CABALLERO_MEDIEVAL/HABILIDADES-ESPARTANO.gif',
-  '../img/BOTONES APARTADO PERSONAJE/PERSONAJES/ELLAINE_MUJER_CALABAZA/HABILIDADES-CALABAZA.gif',
-  '../img/BOTONES APARTADO PERSONAJE/PERSONAJES/CLARK_MONO/HABILIDADES-MONO.gif',
-  '../img/BOTONES APARTADO PERSONAJE/PERSONAJES/EIGHARD_BARBASUCIA_PIRATA_ESQUELETO/HABILIDADES-PIRATA.gif'];
+let imagenHabilidades = ['./includes/img/BOTONES APARTADO PERSONAJE/PERSONAJES/HERA_ARPIA/HABILIDADES-ARPIA.gif',
+  './includes/img/BOTONES APARTADO PERSONAJE/PERSONAJES/NAKE_EXPLORADORA/HABILIDADES-EXPLORADORA.gif',
+  './includes/img/BOTONES APARTADO PERSONAJE/PERSONAJES/MR_BOCETO_BOCETO/HABILIDADES-MR-BOCETO.gif',
+  './includes/img/BOTONES APARTADO PERSONAJE/PERSONAJES/TECHNEY_ROBOT/HABILIDADES-ROBOT.gif',
+  './includes/img/BOTONES APARTADO PERSONAJE/PERSONAJES/ULDAH_TIBURON/HABILIDADES-TIBURON.gif',
+  './includes/img/BOTONES APARTADO PERSONAJE/PERSONAJES/RAG´HUR_ALIEN/HABILIDADES-ALIEN.gif',
+  './includes/img/BOTONES APARTADO PERSONAJE/PERSONAJES/SYR_AIMERIC_CABALLERO_MEDIEVAL/HABILIDADES-ESPARTANO.gif',
+  './includes/img/BOTONES APARTADO PERSONAJE/PERSONAJES/ELLAINE_MUJER_CALABAZA/HABILIDADES-CALABAZA.gif',
+  './includes/img/BOTONES APARTADO PERSONAJE/PERSONAJES/CLARK_MONO/HABILIDADES-MONO.gif',
+  './includes/img/BOTONES APARTADO PERSONAJE/PERSONAJES/EIGHARD_BARBASUCIA_PIRATA_ESQUELETO/HABILIDADES-PIRATA.gif'];
 let imagenPersonaje = [
-  '../img/BOTONES APARTADO PERSONAJE/PERSONAJES FINAL/idlearpia.gif',
-  '../img/BOTONES APARTADO PERSONAJE/PERSONAJES FINAL/idleexploradora.gif',
-  '../img/BOTONES APARTADO PERSONAJE/PERSONAJES FINAL/idlesketch-man.gif',
-  '../img/BOTONES APARTADO PERSONAJE/PERSONAJES FINAL/idlerobot.gif',
-  '../img/BOTONES APARTADO PERSONAJE/PERSONAJES FINAL/idletiburon.gif',
-  '../img/BOTONES APARTADO PERSONAJE/PERSONAJES FINAL/idlealien.gif',
-  '../img/BOTONES APARTADO PERSONAJE/PERSONAJES FINAL/idlecaballero.gif',
-  '../img/BOTONES APARTADO PERSONAJE/PERSONAJES FINAL/idlecalabaza.gif',
-  '../img/BOTONES APARTADO PERSONAJE/PERSONAJES FINAL/idlemono.gif',
-  '../img/BOTONES APARTADO PERSONAJE/PERSONAJES FINAL/idlepirata.gif'
+  './includes/img/BOTONES APARTADO PERSONAJE/PERSONAJES FINAL/idlearpia.gif',
+  './includes/img/BOTONES APARTADO PERSONAJE/PERSONAJES FINAL/idleexploradora.gif',
+  './includes/img/BOTONES APARTADO PERSONAJE/PERSONAJES FINAL/idlesketch-man.gif',
+  './includes/img/BOTONES APARTADO PERSONAJE/PERSONAJES FINAL/idlerobot.gif',
+  './includes/img/BOTONES APARTADO PERSONAJE/PERSONAJES FINAL/idletiburon.gif',
+  './includes/img/BOTONES APARTADO PERSONAJE/PERSONAJES FINAL/idlealien.gif',
+  './includes/img/BOTONES APARTADO PERSONAJE/PERSONAJES FINAL/idlecaballero.gif',
+  './includes/img/BOTONES APARTADO PERSONAJE/PERSONAJES FINAL/idlecalabaza.gif',
+  './includes/img/BOTONES APARTADO PERSONAJE/PERSONAJES FINAL/idlemono.gif',
+  './includes/img/BOTONES APARTADO PERSONAJE/PERSONAJES FINAL/idlepirata.gif'
 ];
 
 let tiersPj = [
-  ['../img/BOTONES APARTADO PERSONAJE/TiersFinales/Arpia/tier1.gif', '../img/BOTONES APARTADO PERSONAJE/TiersFinales/Arpia/tier2.gif', '../img/BOTONES APARTADO PERSONAJE/TiersFinales/Arpia/tier3.gif'],
-  ['../img/BOTONES APARTADO PERSONAJE/TiersFinales/Exploradora/tier1.gif', '../img/BOTONES APARTADO PERSONAJE/TiersFinales/Exploradora/tier2.gif', '../img/BOTONES APARTADO PERSONAJE/TiersFinales/Exploradora/tier3.gif'],
-  ['../img/BOTONES APARTADO PERSONAJE/TiersFinales/MrBoceto/tier1.gif', '../img/BOTONES APARTADO PERSONAJE/TiersFinales/MrBoceto/tier2.gif', '../img/BOTONES APARTADO PERSONAJE/TiersFinales/MrBoceto/tier3.gif'],
-  ['../img/BOTONES APARTADO PERSONAJE/TiersFinales/Robot/tier1.gif', '../img/BOTONES APARTADO PERSONAJE/TiersFinales/Robot/tier2.gif', '../img/BOTONES APARTADO PERSONAJE/TiersFinales/Robot/tier3.gif'],
-  ['../img/BOTONES APARTADO PERSONAJE/TiersFinales/Tiburón/tier1.gif', '../img/BOTONES APARTADO PERSONAJE/TiersFinales/Tiburón/tier2.gif', '../img/BOTONES APARTADO PERSONAJE/TiersFinales/Tiburón/tier3.gif'],
-  ['../img/BOTONES APARTADO PERSONAJE/TiersFinales/alien/tier-1.gif', '../img/BOTONES APARTADO PERSONAJE/TiersFinales/alien/tier-2.gif', '../img/BOTONES APARTADO PERSONAJE/TiersFinales/alien/tier-3.gif'],
-  ['../img/BOTONES APARTADO PERSONAJE/TiersFinales/caballero/tier1.gif', '../img/BOTONES APARTADO PERSONAJE/TiersFinales/caballero/tier2.gif', '../img/BOTONES APARTADO PERSONAJE/TiersFinales/caballero/tier3.gif'],
-  ['../img/BOTONES APARTADO PERSONAJE/TiersFinales/calabaza/tier1.gif', '../img/BOTONES APARTADO PERSONAJE/TiersFinales/calabaza/tier2.gif', '../img/BOTONES APARTADO PERSONAJE/TiersFinales/calabaza/tier3.gif'],
-  ['../img/BOTONES APARTADO PERSONAJE/TiersFinales/Mono/tier1.gif', '../img/BOTONES APARTADO PERSONAJE/TiersFinales/Mono/tier2.gif', '../img/BOTONES APARTADO PERSONAJE/TiersFinales/Mono/tier3.gif'],
-  ['../img/BOTONES APARTADO PERSONAJE/TiersFinales/Pirata/tier1.gif', '../img/BOTONES APARTADO PERSONAJE/TiersFinales/Pirata/tier2.gif', '../img/BOTONES APARTADO PERSONAJE/TiersFinales/Pirata/tier3.gif']
+  ['./includes/img/BOTONES APARTADO PERSONAJE/TiersFinales/Arpia/tier1.gif', './includes/img/BOTONES APARTADO PERSONAJE/TiersFinales/Arpia/tier2.gif', './includes/img/BOTONES APARTADO PERSONAJE/TiersFinales/Arpia/tier3.gif'],
+  ['./includes/img/BOTONES APARTADO PERSONAJE/TiersFinales/Exploradora/tier1.gif', './includes/img/BOTONES APARTADO PERSONAJE/TiersFinales/Exploradora/tier2.gif', './includes/img/BOTONES APARTADO PERSONAJE/TiersFinales/Exploradora/tier3.gif'],
+  ['./includes/img/BOTONES APARTADO PERSONAJE/TiersFinales/MrBoceto/tier1.gif', './includes/img/BOTONES APARTADO PERSONAJE/TiersFinales/MrBoceto/tier2.gif', './includes/img/BOTONES APARTADO PERSONAJE/TiersFinales/MrBoceto/tier3.gif'],
+  ['./includes/img/BOTONES APARTADO PERSONAJE/TiersFinales/Robot/tier1.gif', './includes/img/BOTONES APARTADO PERSONAJE/TiersFinales/Robot/tier2.gif', './includes/img/BOTONES APARTADO PERSONAJE/TiersFinales/Robot/tier3.gif'],
+  ['./includes/img/BOTONES APARTADO PERSONAJE/TiersFinales/Tiburón/tier1.gif', './includes/img/BOTONES APARTADO PERSONAJE/TiersFinales/Tiburón/tier2.gif', './includes/img/BOTONES APARTADO PERSONAJE/TiersFinales/Tiburón/tier3.gif'],
+  ['./includes/img/BOTONES APARTADO PERSONAJE/TiersFinales/alien/tier-1.gif', './includes/img/BOTONES APARTADO PERSONAJE/TiersFinales/alien/tier-2.gif', './includes/img/BOTONES APARTADO PERSONAJE/TiersFinales/alien/tier-3.gif'],
+  ['./includes/img/BOTONES APARTADO PERSONAJE/TiersFinales/caballero/tier1.gif', './includes/img/BOTONES APARTADO PERSONAJE/TiersFinales/caballero/tier2.gif', './includes/img/BOTONES APARTADO PERSONAJE/TiersFinales/caballero/tier3.gif'],
+  ['./includes/img/BOTONES APARTADO PERSONAJE/TiersFinales/calabaza/tier1.gif', './includes/img/BOTONES APARTADO PERSONAJE/TiersFinales/calabaza/tier2.gif', './includes/img/BOTONES APARTADO PERSONAJE/TiersFinales/calabaza/tier3.gif'],
+  ['./includes/img/BOTONES APARTADO PERSONAJE/TiersFinales/Mono/tier1.gif', './includes/img/BOTONES APARTADO PERSONAJE/TiersFinales/Mono/tier2.gif', './includes/img/BOTONES APARTADO PERSONAJE/TiersFinales/Mono/tier3.gif'],
+  ['./includes/img/BOTONES APARTADO PERSONAJE/TiersFinales/Pirata/tier1.gif', './includes/img/BOTONES APARTADO PERSONAJE/TiersFinales/Pirata/tier2.gif', './includes/img/BOTONES APARTADO PERSONAJE/TiersFinales/Pirata/tier3.gif']
 ]
 
 
@@ -99,6 +99,4 @@ function muestraImg(clicked_id) {
   for (let i = 0; i < tier.length; i++) {
     tier[i].src = tiersPj[indiceDelBoton][i];
   }
-
-
-}
+  }
