@@ -1,83 +1,266 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
 
-<head>  
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="resources/index.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-   
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="includes/css/index.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="includes/css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="includes/fuentes/spider/stylesheet.css">
+  <link rel="stylesheet" type="text/css" href="includes/fuentes/candy/stylesheet.css">
+  <link rel="icon" href="includes/img/Logo.png">
+  <link rel="stylesheet" href="resources/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+        <script type="text/javascript" src="resources/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+        <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 
-    <title>Fight in Time</title>
+  <link href="https://fonts.googleapis.com/css2?family=Mohave:wght@300&display=swap" rel="stylesheet">
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+
+  <title>Fight in Time</title>
 </head>
 
 <body>
-    
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">     
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">     
+            <div class="col-md-1 col-7 ">
+                <button type="button" class="btn"><img src="./includes/img/Logo_y_nombre_horizontal.png" alt="" class="img-fluid"></button>    
+            </div>
 
-            <div class="col-md-1 col-7 ">            
-              <button type="button" class="btn"><img src="includes/Logo_y_nombre_horizontal.png" alt="" class="img-fluid"></button>    
-            </div>  
-            
             <div class="container">
-              <div class="row justify-content-md-center">               
-                <div class="col-md-2 col-7">
-                  <button type="button" class="btn rounded-pill btn-warning" id="btn-info"><img class="img-fluid" src="" id="img-info"/> </button>
+                <div class="row justify-content-md-center">
+                    <div class="col-md-2 col-7">
+                        <button type="button" class="btn rounded-pill btn-warning" id="btn-info">
+                            <img class="img-fluid" src="" id="img-info"/>
+                        </button>
+                    </div>
+
+                    <div class="col-md-2 col-7">
+                        <button type="button" class="btn rounded-pill btn-warning" id="btn-pjs">
+                            <img alt="" class="img-fluid" id="img-pjs"/>
+                        </button>
+                    </div>
+
+                    <div class="col-md-2 col-7">
+                        <button type="button" class="btn rounded-pill btn-warning"id="btn-escn">
+                            <img alt="" class="img-fluid" id="img-escn"/>
+                        </button>
+                    </div> 
+
+                    <div class="col-md-2 col-7">
+                        <button type="button" class="btn rounded-pill btn-warning" id="btn-modo">
+                            <img alt="" class="img-fluid" id="img-modo"/>
+                        </button>
+                    </div>
+
+                    <div class="col-md-2 col-7">
+                        <button type="button" class="btn rounded-pill btn-warning" id="btn-modo">
+                            <img alt="" class="img-fluid" id="img-modo"/>
+                        </button>
+                    </div>
                 </div>
+            </div>
 
-                <div class="col-md-2 col-7">
-                  <button type="button" class="btn rounded-pill btn-warning" id="btn-pjs"> <img alt="" class="img-fluid" id="img-pjs"/></button>
+            <div class="revista">
+                <a class="single-image" href="#revista-pdf">
+                    <img id="img-botonRevista" width="50%" alt=""/>
+                </a>
+                <div id="revista-pdf" class="divfancybox">
+                    <a href="https://issuu.com/seagullgameschool/docs/fight_in_time" target="_blank">
+                        <img src="resources/BOTONES REVISTA/revista.jpeg" width="500px"; height="600px";>
+                    </a>
                 </div>
+            </div>
 
-                <div class="col-md-2 col-7">
-                  <button type="button" class="btn rounded-pill btn-warning"id="btn-escn"> <img alt="" class="img-fluid" id="img-escn"/></button>
-                </div> 
+            <div class="insertCoin">
+                <button class="single-image btn shadow-none" href="#insert-coin">
+                    <img id="img-botonCoin" class="img-fluid" alt=""/>
+                </button>
+            
+                <div id="insert-coin" class="divfancybox">
+                    <button  onclick="myFunction()">
+                        <a class="fancybox" data-type="iframe" href="https://www.youtube.com/embed/YE7VzlLtp-4" title="youtube">
+                            <img src="includes/botones/insert-coin-.gif" width="900px"; height="600px";>
+                        </a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
 
-                <div class="col-md-2 col-7">
-                  <button type="button" class="btn rounded-pill btn-warning" id="btn-modo"> <img alt="" class="img-fluid" id="img-modo"/></button>
-                </div>                             
+<div class="image-sound">
+  <div id="ConSonido">
+    <input onclick="setHalfVolume(); switchVisible();" type="image" src="includes/img/botones/active/CON SONIDO.png" width="30%" name="submit" alt="submit"/>
+  </div>
+  <div style="display: none;" id="SinSonido">
+    <input  onclick="setFullVolume(); switchVisible();" type="image" src="includes/img/botones/normal/SIN SONIDO.png" width="30%" name="submit"  alt="submit"/>
+  </div>
+
+  <audio id="sound" autoplay loop>
+    <source  src="resources/Sonido/Sample_of__Another_Day_in_Paradise_.mp3" type="audio/mpeg">
+  </audio>
+</div>
+
+  
+
+
+  <!-- <div class="container">           
+            <div class="row">
+              <div class="col">
+                  <br/><br/><br/>
+              </div>
+            </div>
+        </div>-->
+
+  <div id="pj1" class="mt-5">
+    <div class="container-fluid">
+      <div class="row ">
+        <div class="col-6 col-md-7">
+          <div class="row" id="columnaBotones">
+            <div class="row justify-content-md-center gx-5" style="margin-top: 5%;margin-left: -10%;"
+              id="botonesArriba">
+              <div class="col-2 col-md-2">
+                <button type="button" class="btn shadow-none me-5 btnPJ" id="btn-pj-1" onclick="muestraImg(this.id)">
+                  <img alt="" class="img-fluid img-pj-test" id="img-pj-1" /></button>
+              </div>
+              <div class="col-2 col-md-2">
+                <button type="button" class="btn shadow-none me-5 btnPJ" id="btn-pj-2" onclick="muestraImg(this.id)">
+                  <img alt="" class="img-fluid img-pj-test" / id="img-pj-2"></button>
+              </div>
+              <div class="col-2 col-md-2">
+                <button type="button" class="btn shadow-none me-5 btnPJ" id="btn-pj-3" onclick="muestraImg(this.id)">
+                  <img alt="" class="img-fluid img-pj-test" / id="img-pj-3"></button>
+              </div>
+              <div class="col-2 col-md-2">
+                <button type="button" class="btn shadow-none me-5 btnPJ" id="btn-pj-4" onclick="muestraImg(this.id)">
+                  <img alt="" class="img-fluid img-pj-test" / id="img-pj-4"></button>
+              </div>
+              <div class="col-2 col-md-2">
+                <button type="button" class="btn shadow-none me-5 btnPJ" id="btn-pj-5" onclick="muestraImg(this.id)">
+                  <img alt="" class="img-fluid img-pj-test" / id="img-pj-5"></button>
               </div>
             </div>
 
-            <div class="row justify-content-md-center g-1" style="width: 10vw;">
-              <div class="col-md-2 col-7 align-self-end">
-                <button type="button" class="btn"><img src="includes/botones/language/COREANO IDIOMA.png" alt="" class="img-fluid"></button>
+            <div class="row overflow-visible columnaIzquierda" style="margin-top: -1%;">
+              <div class="col-12 col-md-12 overflow-visible">
+                <hr class="overflow-visible" id="rayaPj" />
               </div>
-              <div class="col-md-2 col-7 align-self-end">
-                <button type="button" class="btn"><img src="includes/botones/language/JAPONES IDIOMA.png" alt="" class="img-fluid"></button>
+            </div>
+
+            <div class="row justify-content-md-center gx-5 columnaIzquierda"
+              style="margin-top: -1.5%; margin-left: -15%;">
+              <div class="col-1 col-md-2">
+                <button type="button" class="btn shadow-none ms-5" id="btn-pj-"> <img alt=""
+                    class="img-fluid relleno" /></button>
               </div>
-              <div class="col-md-2 col-7 align-self-end">
-                <button type="button" class="btn"><img src="includes/botones/language/FRANCES IDIOMA.png" alt="" class="img-fluid"></button>
+              <div class="col-2 col-md-2">
+                <button type="button" class="btn shadow-none ms-5 btnPJ" id="btn-pj-6" onclick="muestraImg(this.id)">
+                  <img alt="" class="img-fluid" id="img-pj-6" /></button>
               </div>
-              <div class="w-100"></div>
-              <div class="col-md-2 col-7 align-self-end">
-                <button type="button" class="btn"><img src="includes/botones/language/INGLES IDIOMA.png" alt="" class="img-fluid"></button>
+              <div class="col-2 col-md-2">
+                <button type="button" class="btn shadow-none ms-5 btnPJ" id="btn-pj-7" onclick="muestraImg(this.id)">
+                  <img alt="" class="img-fluid" id="img-pj-7" /></button>
               </div>
-              <div class="col-md-2 col-7 align-self-end">
-                <button type="button" class="btn"><img src="includes/botones/language/ESPAÑOL IDIOMA.png" alt="" class="img-fluid"></button>
+              <div class="col-2 col-md-2">
+                <button type="button" class="btn shadow-none ms-5 btnPJ" id="btn-pj-8" onclick="muestraImg(this.id)">
+                  <img alt="" class="img-fluid" id="img-pj-8" /></button>
               </div>
-            </div>         
-          
-            <div class="col-md-2 col-7 ">            
-              <button type="button" class="btn"><img src="includes/botones/icoin.gif" alt="" class="img-fluid"></button>    
-            </div>           
-          </div>           
+              <div class="col-2 col-md-2">
+                <button type="button" class="btn shadow-none ms-5 btnPJ" id="btn-pj-9" onclick="muestraImg(this.id)">
+                  <img alt="" class="img-fluid" id="img-pj-9" /></button>
+              </div>
+              <div class="col-2 col-md-2">
+                <button type="button" class="btn shadow-none ms-5 btnPJ" id="btn-pj-10" onclick="muestraImg(this.id)">
+                  <img alt="" class="img-fluid" id="img-pj-10" /></button>
+              </div>
+            </div>
+
+
+            <div class="row mt-5 columnaIzquierda">
+              <div class="col-md-6 ">
+                <p id="parrafo-Habilidades" class="text-center"></p>
+              </div>
+              <div class="col-md-6">
+                <p id="parrafo-Nombre" class="text-center"></p>
+              </div>
+
+
+            </div>
+            <div class="row align-items-center gx-5 columnaIzquierda">
+              <div class="col-md-6" id="test2">
+                <img class="img-fluid cover img-Habilidades" src="includes/img/vacio.png" alt="habilidades"
+                  id="img-habilidad">
+              </div>
+              <div class="col-md-6  ">
+
+                <p id="caja-Descripcion" class="text-center">
+
+                </p>
+              </div>
+
+            </div>
+
+          </div>
         </div>
-      </nav>
+
+        <div class="col-6 col-md-5">
+          <img src="includes/img/BOTONES APARTADO PERSONAJE/PERSONAJES FINAL/vacio.png" alt="" class="img-fluid"
+            id="fotoPJ" />
+          <!--<img src="" alt="" class="img-fluid" id="img-circulo">
+                    <img class="spin" src="./includes/botones/ciruloAmarillo.png" alt="circle" />-->
+        </div>
+
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <img src="includes/img/flechaAbajo.gif" alt="" class="img-fluid" style="width: 10%; display: none; margin-top: -1%;"
+            id="flechaPj">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="habilidad1" style="margin-bottom: 5%;">    
+    <img src="" alt="" class="img-fluid tier" style="object-fit: cover; opacity: 0.9;">
+  </div>
+  <div class="habilidad2" style="margin-bottom: 5%;">
+    <img src="" alt="" class="img-fluid tier" style="object-fit: cover; opacity: 0.9;">
+  </div>
+  <div class="habilidad3">
+    <img src="" alt="" class="img-fluid tier" style="object-fit: cover; opacity: 0.9;">
+  </div>
+
+  <!-- <div class="habilidad1">
+          <video src="./includes/tier-1.mp4" alt="" class="img-fluid" style="object-fit: cover;" autoplay loop muted></video>
+        </div>
+        <div class="habilidad2">
+          <video src="./includes/tier-2.mp4" alt="" class="img-fluid" style="object-fit: cover;" autoplay loop muted></video>
+        </div>
+        <div class="habilidad3">
+          <video src="./includes/tier-3.mp4" alt="" class="img-fluid" style="object-fit: cover;" autoplay loop muted></video>
+        </div>-->
+
+
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-    crossorigin="anonymous">
-  </script>
-  <script src="resources/index.js"></script>
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+  <script src="includes/js/testJS.js"></script> 
+    <script src="./includes/js/app.js"></script>
 </body>
 
 </html>
