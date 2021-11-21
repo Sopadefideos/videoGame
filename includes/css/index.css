@@ -47,6 +47,9 @@ button:active{
 #img-modo {
     content: url(../img/botones/normal/MODO\ NORMAL.png);
 }
+#img-stacks {
+    content: url(../img/botones/normal/STACKS\ NORMAL.png);
+}
 
 /*HOVER POR SI SE QUIEREN USAR
 
