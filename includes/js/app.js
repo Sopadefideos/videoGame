@@ -72,7 +72,7 @@ $(document).ready(function () {
 /** Escenarios */
 let movimientoAmarillo2 = [
   './includes/img/BOTONES\ APARTADO\ ESCENARIO/MOVIMIENTO-RECTANGULO-AMARILLO.gif',
-  './includes/img//BOTONES\ APARTADO\ ESCENARIO/MOVIMIENTO-RECTANGULO-AMARILLO-copia.gif'
+  './includes/img/BOTONES\ APARTADO\ ESCENARIO/MOVIMIENTO-RECTANGULO-AMARILLO-copia.gif'
 ];
 
 let cambioAmarillo2 = true;
