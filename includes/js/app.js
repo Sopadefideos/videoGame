@@ -124,7 +124,7 @@ let sonido = [
   './includes/sonido/10.mp3',
 ];
 
-var str = "";
+
 
 function muestraImg2(clicked_id) {
   //let fecha = Date();
@@ -144,12 +144,7 @@ function muestraImg2(clicked_id) {
     cambioAmarillo2 = true;
   }
 
-  str = str.concat(indiceDelBoton);
-
-  if (str == "298567") {
-
-    window.location.href = "easterEgg.html"
-  }
+ 
 
   cuadradoEscenario.src = escenarios[indiceDelBoton];
   sonidoEscenario.src = sonido[indiceDelBoton];
