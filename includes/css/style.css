@@ -82,6 +82,7 @@ button:active{
 
 /** Boton de Revista **/
 #img-botonRevista {
+    width: 40%;
     content: url(../img/BOTONES\ REVISTA/boton-revista.png);
 }
 #img-revista {

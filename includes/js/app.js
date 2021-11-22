@@ -118,11 +118,13 @@ let sonido = [
   './includes/sonido/4.mp3',
   './includes/sonido/5.mp3',
   './includes/sonido/6.mp3',
-  './includes/sonido/7.mp3',
-  './includes/sonido/8.mp3',
   './includes/sonido/9.mp3',
+  './includes/sonido/8.mp3',
+  './includes/sonido/7.mp3',
   './includes/sonido/10.mp3',
 ];
+
+var str = "";
 
 function muestraImg2(clicked_id) {
   //let fecha = Date();
@@ -140,6 +142,13 @@ function muestraImg2(clicked_id) {
   } else {
     giratorio.src = movimientoAmarillo2[0];
     cambioAmarillo2 = true;
+  }
+
+  str = str.concat(indiceDelBoton);
+
+  if (str == "298567") {
+
+    window.location.href = "easterEgg.html"
   }
 
   cuadradoEscenario.src = escenarios[indiceDelBoton];

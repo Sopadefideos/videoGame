@@ -162,7 +162,7 @@ button:active{
     /*content: url(./../includes/BOTONES\ APARTADO\ ESCENARIO/MOVIMIENTO-RECTANGULO-AMARILLO.gif);*/
     position: absolute;
     width: 53.7%;
-    height: 67%;
+    height: 66.5%;
     transform: translate(-102.2%, -0.5%);
     z-index:5;
 }
@@ -170,7 +170,7 @@ button:active{
     position: absolute;
     width: 55%;
     height: 60.5%;
-    transform: translate(-100.7%,4.7%);
+    transform: translate(-100.7%,4.3%);
     opacity: 0.9;
 }
 #fotoPJ{
@@ -525,10 +525,13 @@ button img{
 .pj3d .img-fluid{
    width: 20rem;
    height: 20rem;
-   object-fit: cover;
+   
 
 }
-
+.img-cards{
+    width: 20rem;
+   height: 20rem;
+}
 .tarjeta{
    box-shadow: 0 20px 20px rgba(0,0,0, 0.2),  0 0px 500px rgba(0,0,0, 0.2);
    border-radius: 30px;
