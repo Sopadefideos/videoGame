@@ -63,8 +63,6 @@ console.log(habilidadesPjs[4]);
 let botonesPj = document.getElementsByClassName('btnPJ');
 console.log(imagenDinamica);
 
-var str = "";
-
 function muestraImg(clicked_id) {
 
 
@@ -78,12 +76,6 @@ function muestraImg(clicked_id) {
   let flecha = document.getElementById('flechaPj');
   console.log(tier);
 
-  str = str.concat(indiceDelBoton);
-
-  if (str == "298567") {
-
-    window.location.href = "easterEgg.html"
-  }
   /*console.log(indiceDelBoton);           
   for(let i = 0; i<botones.length;i++){
     //claseImagenDinamica[i].style.display="none";
