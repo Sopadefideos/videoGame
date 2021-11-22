@@ -10,7 +10,7 @@ let descripciones = ['Reina de las arpías y una de las principales antagonistas
   'Procedente de un proyecto cancelado del estudio. Ellaine se caracteriza por su actitud errática y agresiva. Su arma característica es una guadaña, lo que la hace una oponente muy peligrosa a media distancia.',
   'Protagonista de la futura serie de animación espacial “Deep Space”. Se trata del líder de la escuadra primate de exploración 5 y se caracteriza por ser un capitán decidido y valiente. Su capacidad para utilizar las herramientas a su disposición son excelentes.',
   'Protagonista de la futura serie de animación “Dark Seas”. Barbasucia fue considerado uno de los mayores piratas que jamás hayan navegado los siete mares, pero encontró su final en una de sus tantas aventuras. Ahora ha vuelto a la vida para terminar el viaje que una vez empezó. Barbasucia se caracteriza por su uso gran uso de cañón y espada.',];
-let Nombres = ['HERA', 'NAKE', 'MR. BOCETO', 'TECHNEY', 'ULDAH', "RAG'HOR", 'SYR AIMERIC', 'ELLAINE', 'CLARK', 'EIGHARD BARBASUCIA'];
+let Nombres = ['HERA', 'NAKE', 'MR. BOCETO', 'TECHNEY', 'ULDAH', "RAG'HUR", 'SYR AIMERIC', 'ELLAINE', 'CLARK', 'EIGHARD BARBASUCIA'];
 let imagenHabilidades = ['./includes/img/BOTONES APARTADO PERSONAJE/PERSONAJES/HERA_ARPIA/HABILIDADES-ARPIA.gif',
   './includes/img/BOTONES APARTADO PERSONAJE/PERSONAJES/NAKE_EXPLORADORA/HABILIDADES-EXPLORADORA.gif',
   './includes/img/BOTONES APARTADO PERSONAJE/PERSONAJES/MR_BOCETO_BOCETO/HABILIDADES-MR-BOCETO.gif',
@@ -99,4 +99,4 @@ function muestraImg(clicked_id) {
   for (let i = 0; i < tier.length; i++) {
     tier[i].src = tiersPj[indiceDelBoton][i];
   }
-  }
+}

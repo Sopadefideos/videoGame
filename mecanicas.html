@@ -29,7 +29,7 @@
   <script type="text/javascript" src="resources/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
 
   <title>Fight in Time</title>
-  <link rel="shortcut icon" href="includes/Logo.png">
+  <link rel="shortcut icon" href="includes/img/Logo.png">
 </head>
 
 <body>
@@ -41,70 +41,91 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
         <div class="col-md-1 col-7 ">
-          <button type="button" class="btn"><img src="./includes/img/Logo_y_nombre_horizontal.png" alt="LOGO NAVBAR"
-              class="img-fluid"></button>
+          <a href="index.html">
+            <button type="button" class="btn"><img src="includes/img/Logo_y_nombre_horizontal.png" alt=""
+                class="img-fluid"></button>
+          </a>
         </div>
 
         <div class="container">
           <div class="row justify-content-md-center">
             <div class="col-md-2 col-7">
               <div class="dropdown">
-                <button type="button" class="btn rounded-pill btn-warning" id="btn-info" data-bs-toggle="dropdown"><img
-                    class="img-fluid" src="" id="img-info" /> </button>
+                <button type="button" class="btn rounded-pill btn-warning shadow-none" id="btn-info"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  <img class="img-fluid" src="" id="img-info" />
+                </button>
                 <ul class="dropdown-menu mt-3 border-0" aria-labelledby="btn-info">
-                  <li><button href="/historia" type="button" class="btn rounded-pill btn-warning mb-1"
-                      id="btn-info-historia" data-bs-toggle="dropdown"><img class="img-fluid" src=""
-                        id="img-info-historia" /> </button></li>
-                  <li><button type="button" class="btn rounded-pill btn-warning mb-1" id="btn-info-mecanica"
-                      data-bs-toggle="dropdown"><img class="img-fluid" src="" id="img-info-mecanica" /> </button></li>
+                  <li>
+                    <a href="mecanicas.html">
+                      <button type="button" class="btn rounded-pill btn-warning mb-1 shadow-none"
+                        id="btn-info-mecanicas"><img alt="" class="img-fluid" id="img-info-mecanicas" /></button>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="historia.html">
+                      <button type="button" class="btn rounded-pill btn-warning mb-1 shadow-none"
+                        id="btn-info-historia"><img alt="" class="img-fluid" id="img-info-historia" /></button>
+                    </a>
+                  </li>
                 </ul>
               </div>
             </div>
 
             <div class="col-md-2 col-7">
-              <button type="button" class="btn rounded-pill btn-warning" id="btn-pjs"> <img alt="" class="img-fluid"
-                  id="img-pjs" /></button>
+              <a href="personaje.html">
+                <button type="button" class="btn rounded-pill btn-warning" id="btn-pjs"> <img alt="" class="img-fluid"
+                    id="img-pjs" /></button>
+              </a>
             </div>
 
             <div class="col-md-2 col-7">
-              <button type="button" class="btn rounded-pill btn-warning" id="btn-escn"> <img alt="" class="img-fluid"
-                  id="img-escn" /></button>
+              <a href="escenarios.html">
+                <button type="button" class="btn rounded-pill btn-warning" id="btn-escn"> <img alt="" class="img-fluid"
+                    id="img-escn" /></button>
+              </a>
             </div>
 
             <div class="col-md-2 col-7">
-              <button type="button" class="btn rounded-pill btn-warning" id="btn-modo"> <img alt="" class="img-fluid"
-                  id="img-modo" /></button>
+              <a href="modos.html">
+                <button type="button" class="btn rounded-pill btn-warning" id="btn-modo"> <img alt="" class="img-fluid"
+                    id="img-modo" /></button>
+              </a>
             </div>
 
             <div class="col-md-2 col-7">
-              <button type="button" class="btn rounded-pill btn-warning" id="btn-modo"> <img alt="" class="img-fluid"
-                  id="img-modo" /></button>
+              <a href="stacks.html">
+                <button type="button" class="btn rounded-pill btn-warning" id="btn-stack"> <img alt="" class="img-fluid"
+                    id="img-stacks" /></button>
+              </a>
+
             </div>
           </div>
         </div>
+
         <div class="revista">
-          <a class="single-image" href="#revista-pdf">
-            <img id="img-botonRevista" width="50%" alt="" />
-          </a>
+          <a class="single-image" href="#revista-pdf"><img id="img-botonRevista" width="50%" alt="" /></a>
           <div id="revista-pdf" class="divfancybox">
             <a href="https://issuu.com/seagullgameschool/docs/fight_in_time" target="_blank">
-              <img src="resources/BOTONES REVISTA/revista.jpeg" width="500px" ; height="600px" ;>
+              <img src="includes/img/BOTONES REVISTA/revista.jpeg" width="500px" ; height="600px" ;>
             </a>
           </div>
         </div>
 
         <div class="insertCoin">
-          <button class="single-image btn shadow-none" href="#insert-coin">
-            <img id="img-botonCoin" class="img-fluid" alt="" />
-          </button>
+          <button class="single-image btn shadow-none" href="#insert-coin"><img id="img-botonCoin" class="img-fluid"
+              alt="" /></button>
 
           <div id="insert-coin" class="divfancybox">
             <button onclick="myFunction()">
-              <a class="fancybox" data-type="iframe" href="https://www.youtube.com/embed/YE7VzlLtp-4" title="youtube">
-                <img src="includes/botones/insert-coin-.gif" width="900px" ; height="600px" ;>
-              </a>
+
+              <a class="fancybox" data-type="iframe" href="https://www.youtube.com/embed/YE7VzlLtp-4"
+                title="youtube"><img src="includes/img/botones/insert-coin-.gif" width="900px" ; height="600px"
+                  ;></a><br />
+
             </button>
           </div>
+
         </div>
       </div>
     </div>
