@@ -50,6 +50,9 @@ button:active{
 #img-stacks {
     content: url(../img/botones/normal/STACKS\ NORMAL.png);
 }
+#img-stack{
+    content: url(../img/botones/normal/STACKS\ NORMAL.png);
+}
 
 /*HOVER POR SI SE QUIEREN USAR
 
@@ -66,6 +69,19 @@ button:active{
     content: url(../includes/botones/active/MODO\ PUSH.png);
 }*/
 
+#img-info-mecanicas{
+    content: url(../img/botones/normal/INF\ MECANICA.png);
+}
+#img-info-historia{
+    content: url(../img/botones/normal/HISTORIA\ NORMAL.png);
+}
+#btn-info-mecanica:focus img{
+    content: url(../img/botones/active/INF\ MECANICA\ PUSH.png)
+}
+#btn-info-mecanicas:focus img{
+    content: url(../img/botones/active/HISTORIA\ PUSH.png)
+}
+
 
   
 #btn-info:focus img {
@@ -79,6 +95,9 @@ button:active{
 }
 #btn-modo:focus img {
     content: url(../img/botones/active/MODO\ PUSH.png);
+}
+#btn-stack:focus img{
+    content: url(../img/botones/active/STACK\ PUSH.png);
 }
 
 .idiomas{
@@ -143,7 +162,7 @@ button:active{
     /*content: url(./../includes/BOTONES\ APARTADO\ ESCENARIO/MOVIMIENTO-RECTANGULO-AMARILLO.gif);*/
     position: absolute;
     width: 53.7%;
-    height: 67%;
+    height: 66.5%;
     transform: translate(-102.2%, -0.5%);
     z-index:5;
 }
@@ -151,7 +170,7 @@ button:active{
     position: absolute;
     width: 55%;
     height: 60.5%;
-    transform: translate(-100.7%,4.7%);
+    transform: translate(-100.7%,4.3%);
     opacity: 0.9;
 }
 #fotoPJ{
@@ -417,21 +436,21 @@ button img{
     object-fit: cover;
     margin: 0px;
     padding: 0px;
-    background:rgba(38, 105, 61, 0.24);
+    background:rgba(157, 175, 90, 0.336);
 }
 .paginaTres{
     height: 100vh;
     object-fit: cover;
     margin: 0px;
     padding: 0px;
-    background:rgba(64, 38, 105, 0.24);
+    background:rgba(255, 65, 65, 0.336);
 }
 .paginaCuatro{
     height: 100vh;
     object-fit: cover;
     margin: 0px;
     padding: 0px;
-    background:rgba(105, 54, 38, 0.24);
+    background:rgba(95, 2, 114, 0.336);
 }
 .paginaCinco{
     height: 100vh;
@@ -472,7 +491,8 @@ button img{
 
 #subtitulo-mod{
     font-family: 'Mohave', sans-serif;
-    font-size: 1.7rem; 
+    font-size: 1.5rem;
+    text-align: justify; 
 }
 
 
@@ -505,10 +525,13 @@ button img{
 .pj3d .img-fluid{
    width: 20rem;
    height: 20rem;
-   object-fit: cover;
+   
 
 }
-
+.img-cards{
+    width: 20rem;
+   height: 20rem;
+}
 .tarjeta{
    box-shadow: 0 20px 20px rgba(0,0,0, 0.2),  0 0px 500px rgba(0,0,0, 0.2);
    border-radius: 30px;
@@ -523,4 +546,96 @@ button img{
    );
    border-radius: 30px;
 }
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+#TituloChoque{
+    padding-top: 1%;
+    font-family: 'spider_homeregular' ;
+    font-size: 5vh;
+}
+#subTituloChoque{    
+    font-family: 'Mohave', sans-serif;
+    font-size: 1.4rem;
+}
+.subTituloChoque{    
+    font-family: 'Mohave', sans-serif;
+    font-size: 1.4rem;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#videoChoque{
+    height: 70vh;
+    margin-left: 11%;
+}
+.tresEntintado{
+    height: 100vh;
+    object-fit: cover;
+    margin: 0px;
+    padding: 0px;
+   
+}
+#unoIndicador{
+    height: 100vh;
+    object-fit: cover;
+    margin: 0px;
+    padding: 0px;
+    
 
+}
+.unoCarruselTit{
+    padding-top: 1%;
+    font-family: 'spider_homeregular' ;
+    font-size: 5vh;  
+}
+.unoSubtit{
+    font-family: 'Mohave', sans-serif;
+    font-size: 1.4rem; 
+}
+.unoletras{
+    font-family: 'Mohave', sans-serif;
+    font-size: 1.7rem; 
+}
+#TituloEntintado{
+    padding-top: 1%;
+   
+    font-family: 'spider_homeregular' ;
+    font-size: 5vh;
+}
+#subTituloEntintado{    
+    font-family: 'Mohave', sans-serif;
+    font-size: 1.4rem;
+}
+#videoEntintado{
+    height: 70vh;
+    margin-left: 11%;
+}
+
+.fill { 
+    min-height: 100%;
+    height: 100%;
+}
+
+#btn-info-mecanicas:focus img{
+    content: url(../img/botones/active/INF\ MECANICA\ PUSH.png)
+}
+#img-info-mecanicas{
+    content: url(../img/botones/normal/INF\ MECANICA.png)
+}
+#btn-info-mecanicas:focus img {
+    content: url(../img/botones/active/INF\ MECANICA\ PUSH.png);
+}
+
+#img-info-historia{
+    content: url(../img/botones/normal/HISTORIA\ NORMAL.png);
+}
+#img-info-historia{
+    content: url(../img/botones/normal/HISTORIA\ NORMAL.png)
+}
+#btn-info-historia:focus img {
+    content: url(../img/botones/active/HISTORIA\ PUSH.png);
+}

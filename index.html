@@ -5,6 +5,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="includes/css/index.css">
+  <link rel="stylesheet" href="includes/fuentes/candy/stylesheet.css">
+  <link rel="stylesheet" href="includes/fuentes/spider/stylesheet.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -29,35 +31,64 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
         <div class="col-md-1 col-7 ">
-          <button type="button" class="btn"><img src="includes/img/Logo_y_nombre_horizontal.png" alt=""
-              class="img-fluid"></button>
+          <a href="index.html">
+            <button type="button" class="btn"><img src="includes/img/Logo_y_nombre_horizontal.png" alt=""
+                class="img-fluid"></button>
+          </a>
         </div>
 
         <div class="container">
           <div class="row justify-content-md-center">
             <div class="col-md-2 col-7">
-              <button type="button" class="btn rounded-pill btn-warning" id="btn-info"><img class="img-fluid" src=""
-                  id="img-info" /> </button>
+              <div class="dropdown">
+                <button type="button" class="btn rounded-pill btn-warning shadow-none" id="btn-info"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  <img class="img-fluid" src="" id="img-info" />
+                </button>
+                <ul class="dropdown-menu mt-3 border-0" aria-labelledby="btn-info">
+                  <li>
+                    <a href="mecanicas.html">
+                      <button type="button" class="btn rounded-pill btn-warning mb-1 shadow-none"
+                        id="btn-info-mecanicas"><img alt="" class="img-fluid" id="img-info-mecanicas" /></button>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="historia.html">
+                      <button type="button" class="btn rounded-pill btn-warning mb-1 shadow-none"
+                        id="btn-info-historia"><img alt="" class="img-fluid" id="img-info-historia" /></button>
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </div>
 
             <div class="col-md-2 col-7">
-              <button type="button" class="btn rounded-pill btn-warning" id="btn-pjs"> <img alt="" class="img-fluid"
-                  id="img-pjs" /></button>
+              <a href="personaje.html">
+                <button type="button" class="btn rounded-pill btn-warning" id="btn-pjs"> <img alt="" class="img-fluid"
+                    id="img-pjs" /></button>
+              </a>
             </div>
 
             <div class="col-md-2 col-7">
-              <button type="button" class="btn rounded-pill btn-warning" id="btn-escn"> <img alt="" class="img-fluid"
-                  id="img-escn" /></button>
+              <a href="escenarios.html">
+                <button type="button" class="btn rounded-pill btn-warning" id="btn-escn"> <img alt="" class="img-fluid"
+                    id="img-escn" /></button>
+              </a>
             </div>
 
             <div class="col-md-2 col-7">
-              <button type="button" class="btn rounded-pill btn-warning" id="btn-modo"> <img alt="" class="img-fluid"
-                  id="img-modo" /></button>
+              <a href="modos.html">
+                <button type="button" class="btn rounded-pill btn-warning" id="btn-modo"> <img alt="" class="img-fluid"
+                    id="img-modo" /></button>
+              </a>
             </div>
 
             <div class="col-md-2 col-7">
-              <button type="button" class="btn rounded-pill btn-warning" id="btn-modo"> <img alt="" class="img-fluid"
-                  id="img-modo" /></button>
+              <a href="stacks.html">
+                <button type="button" class="btn rounded-pill btn-warning" id="btn-stack"> <img alt="" class="img-fluid"
+                    id="img-stacks" /></button>
+              </a>
+
             </div>
           </div>
         </div>
@@ -65,7 +96,7 @@
         <div class="revista">
           <a class="single-image" href="#revista-pdf"><img id="img-botonRevista" width="50%" alt="" /></a>
           <div id="revista-pdf" class="divfancybox">
-            <a href="https://google.com" target="_blank">
+            <a href="https://issuu.com/seagullgameschool/docs/fight_in_time" target="_blank">
               <img src="includes/img/BOTONES REVISTA/revista.jpeg" width="500px" ; height="600px" ;>
             </a>
           </div>
@@ -90,7 +121,7 @@
     </div>
   </nav>
 
-
+  
   <div class="image-sound">
     <div id="ConSonido">
       <input onclick="setHalfVolume(); switchVisible();" type="image" src="includes/img/botones/active/CON SONIDO.png"
@@ -101,16 +132,158 @@
         width="30%" name="submit" alt="submit" />
     </div>
 
-    <audio id="sound" autoplay loop>
-      <source src="resources/Sonido/Sample_of__Another_Day_in_Paradise_.mp3" type="audio/mpeg">
-    </audio>
+    
   </div>
 
-  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <div class="indexTop">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <img src="./includes/bannerBorroso.gif" alt="" class="img-fluid" style="height: 50vh;" width="100%">
+          <img src="./includes/Banner.gif" alt="" class="img-fluid"
+            style="position: absolute; transform: translate(-105%,10%); width: 90%;">
+        </div>
+      </div>
 
-  <script src="includes/js/app.js"></script>
-  <script src="includes/js/index.js"></script>
+    </div>
+  </div>
+  <div class="row" style=" transform: translate(0,-150%)">
+    <div class="col-md-12 ">
+      <p style="font-family: spider_homeregular; font-size: xx-large;" class="text-center">ELIGE A TU PERSONAJE FAVORITO
+        Y EMPIEZA A JUGAR</p>
+    </div>
+  </div>
+
+  <div class="indexBotton">
+    <div class="container-fluid" style="margin-right: -8%;">
+
+      <div class="row gx-5 gy-5">
+        <!--Columna de arriba-->
+        <div class="col-md-2 fundaTarjeta" id="funda1">
+          <div class="tarjeta" id="tarj1">
+            <div class="pj3d">
+              <img src="./includes/img/BOTONES APARTADO PERSONAJE/PERSONAJES FINAL/arpiaPNG.png" alt="pj" class="img-fluid img-cards "
+                id="imgTarjeta1" style="transform: scale(1.2);">
+            </div>
+            <div class="nombre text-center mb-5" id="nombreTarjeta1">
+              <p class="tituloIndexNombre" style="font-size: xx-large;">HERA</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-2 fundaTarjeta" id="funda2">
+          <div class="tarjeta" id="tarj2">
+            <div class="pj3d">
+              <img src="./includes/img/BOTONES APARTADO PERSONAJE/PERSONAJES FINAL/exploradoraPNG.png" alt="pj"
+                class="img-fluid img-cards" id="imgTarjeta2">
+            </div>
+            <div class="nombre text-center mb-5" id="nombreTarjeta2">
+              <p class="tituloIndexNombre" style="font-size: xx-large;">NAKE</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-2" id="funda3">
+          <div class="tarjeta" id="tarj3">
+            <div class="pj3d">
+              <img src="./includes/img/BOTONES APARTADO PERSONAJE/PERSONAJES FINAL/bocetoPNG.png" alt="pj" class="img-fluid img-cards"
+                id="imgTarjeta3">
+            </div>
+            <div class="nombre text-center mb-5" id="nombreTarjeta3">
+              <p class="tituloIndexNombre" style="font-size: xx-large;">MR.BOCETO</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-2" id="funda4">
+          <div class="tarjeta" id="tarj4">
+            <div class="pj3d">
+              <img src="./includes/img/BOTONES APARTADO PERSONAJE/PERSONAJES FINAL/robot.png" alt="pj" class="img-fluid img-cards"
+                id="imgTarjeta4">
+            </div>
+            <div class="nombre text-center mb-5" id="nombreTarjeta4">
+              <p class="tituloIndexNombre" style="font-size: xx-large;">TECHNEY</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-2" id="funda5">
+          <div class="tarjeta" id="tarj5">
+            <div class="pj3d">
+              <img src="./includes/img/BOTONES APARTADO PERSONAJE/PERSONAJES FINAL/tiburonPNG.png" alt="pj"
+                class="img-fluid img-cards" id="imgTarjeta5">
+            </div>
+            <div class="nombre text-center mb-5" id="nombreTarjeta5">
+              <p class="tituloIndexNombre text-center" style="font-size: xx-large;">ULDAH</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Columna de abajo-->
+      <div class="row gx-5">
+        <div class="col-md-2" id="funda6">
+          <div class="tarjeta text-center" id="tarj6">
+            <div class="pj3d text-center">
+              <img src="./includes/img/BOTONES APARTADO PERSONAJE/PERSONAJES FINAL/alienPNG.png" alt="pj" class="img-fluid img-cards"
+                id="imgTarjeta6">
+            </div>
+            <div class="nombre text-center mb-5" id="nombreTarjeta6">
+              <p class="tituloIndexNombre" style="font-size: xx-large;">RAG'HUR</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2" id="funda7">
+          <div class="tarjeta" id="tarj7">
+            <div class="pj3d">
+              <img src="./includes/img/BOTONES APARTADO PERSONAJE/PERSONAJES FINAL/caballeroPNG.png" alt="pj"
+                class="img-fluid img-cards" id="imgTarjeta7">
+            </div>
+            <div class="nombre text-center mb-5" id="nombreTarjeta7">
+              <p class="tituloIndexNombre" style="font-size: xx-large;">SYR AIMERIC</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2" id="funda8">
+          <div class="tarjeta" id="tarj8">
+            <div class="pj3d">
+              <img src="./includes/img/BOTONES APARTADO PERSONAJE/PERSONAJES FINAL/calabazaPNG.png" alt="pj"
+                class="img-fluid img-cards" id="imgTarjeta8">
+            </div>
+            <div class="nombre text-center mb-5" id="nombreTarjeta8">
+              <p class="tituloIndexNombre" style="font-size: xx-large;">ELLAINE</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2" id="funda9">
+          <div class="tarjeta" id="tarj9">
+            <div class="pj3d">
+              <img src="./includes/img/BOTONES APARTADO PERSONAJE/PERSONAJES FINAL/monoPNG.png" alt="pj" class="img-fluid img-cards"
+                id="imgTarjeta9">
+            </div>
+            <div class="nombre text-center mb-5" id="nombreTarjeta9">
+              <p class="tituloIndexNombre" style="font-size: xx-large;">CLARK</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2" id="funda10">
+          <div class="tarjeta" id="tarj10">
+            <div class="pj3d">
+              <img src="./includes/img/BOTONES APARTADO PERSONAJE/PERSONAJES FINAL/pirataPNG.png" alt="pj" class="img-fluid img-cards"
+                id="imgTarjeta10">
+            </div>
+            <div class="nombre text-center mb-5" id="nombreTarjeta1">
+              <p class="tituloIndexNombre" style="font-size: xx-large;">EIGHARD BARBASUCIA</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./includes/js/app.js"></script>
+  <script src=./includes/js/index.js"></script>
+  <script src="./includes/js/testJS.js"></script>
+  <script src="./includes/js/pruebaIndex.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>

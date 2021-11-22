@@ -50,7 +50,7 @@ fundaTarjeta1.addEventListener('mousemove', (e)=>{
 fundaTarjeta1.addEventListener("mouseenter", (e) => {
     tarjeta1.style.transition = "none";    
     nombre1.style.transform = "translateZ(150px)";
-    pj1.style.transform = "scale(1.2)";
+    pj1.style.transform = "scale(1.5)";
     tarjeta1.classList.add('overflow-visible');
   });fundaTarjeta2.addEventListener("mouseenter", (e) => {
     tarjeta2.style.transition = "none";    
@@ -103,7 +103,7 @@ fundaTarjeta1.addEventListener("mouseenter", (e) => {
     tarjeta1.style.transition = "all 0.5s ease";
     tarjeta1.style.transform = `rotateY(0deg) rotateX(0deg)`;    
     nombre1.style.transform = "translateZ(0px)";
-    pj1.style.transform = "scale(1)";
+    pj1.style.transform = "scale(1.2)";
     pj1.style.transition = "all 0.3s ease";
     pj1.classList.remove('overflow-visible');
   });fundaTarjeta2.addEventListener("mouseleave", (e) => {
