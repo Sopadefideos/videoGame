@@ -51,7 +51,7 @@ button:active{
     content: url(../img/botones/normal/STACKS\ NORMAL.png);
 }
 #img-stack{
-    content: url(../includes/botones/normal/botoo-stack-inactivo_Mesa\ de\ trabajo\ 1.png);
+    content: url(../img/botones/normal/STACKS\ NORMAL.png);
 }
 
 /*HOVER POR SI SE QUIEREN USAR
@@ -69,6 +69,19 @@ button:active{
     content: url(../includes/botones/active/MODO\ PUSH.png);
 }*/
 
+#img-info-mecanicas{
+    content: url(../img/botones/normal/INF\ MECANICA.png);
+}
+#img-info-historia{
+    content: url(../img/botones/normal/HISTORIA\ NORMAL.png);
+}
+#btn-info-mecanica:focus img{
+    content: url(../img/botones/active/INF\ MECANICA\ PUSH.png)
+}
+#btn-info-mecanicas:focus img{
+    content: url(../img/botones/active/HISTORIA\ PUSH.png)
+}
+
 
   
 #btn-info:focus img {
@@ -84,7 +97,7 @@ button:active{
     content: url(../img/botones/active/MODO\ PUSH.png);
 }
 #btn-stack:focus img{
-    content: url(../includes/botones/active/botoo-stack-activo_Mesa\ de\ trabajo\ 1.png);
+    content: url(../img/botones/active/STACK\ PUSH.png);
 }
 
 .idiomas{
@@ -350,11 +363,7 @@ button img{
     content: url(../img/BOTONES\ REVISTA/revista.jpeg);
 }
 #img-revista {
-<<<<<<< HEAD:resources/index.css
-    content: url(../resources/BOTONES\ REVISTA/boton-revista.png);
-=======
     content: url(./../img/BOTONES\ REVISTA/boton-revista.png);
->>>>>>> main:includes/css/index.css
 }
 .revista {
     text-align:center;

@@ -55,47 +55,47 @@ jQuery(document).ready(function ($) {
 
 /****/
 
-$(document).ready(function(){
-               
+$(document).ready(function () {
+
   var url = $("#cartoonVideo").attr('src');
 
-  $("#myModal").on('hide.bs.modal', function(){
-      $("#cartoonVideo").attr('src', '');
+  $("#myModal").on('hide.bs.modal', function () {
+    $("#cartoonVideo").attr('src', '');
   });
 
-  $("#myModal").on('show.bs.modal', function(){
-      $("#cartoonVideo").attr('src', url);
+  $("#myModal").on('show.bs.modal', function () {
+    $("#cartoonVideo").attr('src', url);
   });
 });
 
 
 /** Escenarios */
-let movimientoAmarillo = [
-'./includes/BOTONES\ APARTADO\ ESCENARIO/MOVIMIENTO-RECTANGULO-AMARILLO.gif',
-'./includes/BOTONES\ APARTADO\ ESCENARIO/MOVIMIENTO-RECTANGULO-AMARILLO-copia.gif'
+let movimientoAmarillo2 = [
+  './includes/img/BOTONES\ APARTADO\ ESCENARIO/MOVIMIENTO-RECTANGULO-AMARILLO.gif',
+  './includes/img//BOTONES\ APARTADO\ ESCENARIO/MOVIMIENTO-RECTANGULO-AMARILLO-copia.gif'
 ];
 
-let cambioAmarillo = true;
+let cambioAmarillo2 = true;
 
-let botones =[
-  'btn-pj-1', 'btn-pj-2', 'btn-pj-3', 'btn-pj-4', 'btn-pj-5', 'btn-pj-6', 'btn-pj-7', 'btn-pj-8' , 'btn-pj-9', 'btn-pj-10'
+let botones2 = [
+  'btn-pj-1', 'btn-pj-2', 'btn-pj-3', 'btn-pj-4', 'btn-pj-5', 'btn-pj-6', 'btn-pj-7', 'btn-pj-8', 'btn-pj-9', 'btn-pj-10'
 ];
 
-let nombres =[
-  'AFUERAS DE ESPARTA', 'JUNGLA SIN REY','BOCETO','ELYSIUM', 'ATLANTIS', "RAG'HOR", 'PRADERAS DE AURIXIA', 'CEMENTERIO NO HOPE', 'PATA DEL MONO', 'BAHÍA DEL RENEGADO'
+let nombres2 = [
+  'AFUERAS DE ESPARTA', 'JUNGLA SIN REY', 'BOCETO', 'ELYSIUM', 'ATLANTIS', "RAG'HOR", 'PRADERAS DE AURIXIA', 'CEMENTERIO NO HOPE', 'PATA DEL MONO', 'BAHÍA DEL RENEGADO'
 ];
 
 let escenarios = [
-  './includes/BOTONES APARTADO ESCENARIO/ESCENARIOS/ARPIA_AFUERASDEESPARTA_ESCENARIOGRECIA/ESCENARIO-GRECIA.mp4',
-  './includes/BOTONES APARTADO ESCENARIO/ESCENARIOS/EXPLORADORA_JUNGLASINREY_ESCENARIOSELVA/ESCENARIO-JUNGLA.mp4',
-  './includes/BOTONES APARTADO ESCENARIO/ESCENARIOS/MR_BOCETO_BOCETO/ESCENARIO-MRBOCETO.mp4',
-  './includes/BOTONES APARTADO ESCENARIO/ESCENARIOS/ROBOT_ELYSIUM_ESCENARIOFABRICAROBOT/ESCENARIO-ROBOT.mp4',
-  './includes/BOTONES APARTADO ESCENARIO/ESCENARIOS/TIBURON_ATLANTIS_ESCENARIOFONDOMARINO/ESCENARIO-FONDOMARINO.mp4',
-  './includes/BOTONES APARTADO ESCENARIO/ESCENARIOS/RAG´HUR_ALIEN/ESCENARIO-ALIEN.mp4',
-  './includes/BOTONES APARTADO ESCENARIO/ESCENARIOS/CABALLEROMEDIEVAL_PRADERASDEAURIXIA_ESCENARIOCASTILLO/ESCENARIO-MEDIEVAL.mp4',
-  './includes/BOTONES APARTADO ESCENARIO/ESCENARIOS/MUJERCALABAZA_CEMENTERIONOHOPE_ESCENARIOCEMENTERIO/ESCENARIO-CALABAZA.mp4',
-  './includes/BOTONES APARTADO ESCENARIO/ESCENARIOS/MONO_PATADELMONO_ESCENARIOESPACIAL/ESCENARIO-MONO.mp4',
-  './includes/BOTONES APARTADO ESCENARIO/ESCENARIOS/PIRATAESQUELETO_BAHIADELRENEGADO_ESCENARIOPIRATA/ESCENARIO-PIRATA.mp4'
+  './includes/img/BOTONES APARTADO ESCENARIO/ESCENARIOS/ARPIA_AFUERASDEESPARTA_ESCENARIOGRECIA/ESCENARIO-GRECIA.mp4',
+  './includes/img/BOTONES APARTADO ESCENARIO/ESCENARIOS/EXPLORADORA_JUNGLASINREY_ESCENARIOSELVA/ESCENARIO-JUNGLA.mp4',
+  './includes/img/BOTONES APARTADO ESCENARIO/ESCENARIOS/MR_BOCETO_BOCETO/ESCENARIO-MRBOCETO.mp4',
+  './includes/img/BOTONES APARTADO ESCENARIO/ESCENARIOS/ROBOT_ELYSIUM_ESCENARIOFABRICAROBOT/ESCENARIO-ROBOT.mp4',
+  './includes/img/BOTONES APARTADO ESCENARIO/ESCENARIOS/TIBURON_ATLANTIS_ESCENARIOFONDOMARINO/ESCENARIO-FONDOMARINO.mp4',
+  './includes/img/BOTONES APARTADO ESCENARIO/ESCENARIOS/RAG´HUR_ALIEN/ESCENARIO-ALIEN.mp4',
+  './includes/img/BOTONES APARTADO ESCENARIO/ESCENARIOS/CABALLEROMEDIEVAL_PRADERASDEAURIXIA_ESCENARIOCASTILLO/ESCENARIO-MEDIEVAL.mp4',
+  './includes/img/BOTONES APARTADO ESCENARIO/ESCENARIOS/MUJERCALABAZA_CEMENTERIONOHOPE_ESCENARIOCEMENTERIO/ESCENARIO-CALABAZA.mp4',
+  './includes/img/BOTONES APARTADO ESCENARIO/ESCENARIOS/MONO_PATADELMONO_ESCENARIOESPACIAL/ESCENARIO-MONO.mp4',
+  './includes/img/BOTONES APARTADO ESCENARIO/ESCENARIOS/PIRATAESQUELETO_BAHIADELRENEGADO_ESCENARIOPIRATA/ESCENARIO-PIRATA.mp4'
 ];
 
 let descripcion = [
@@ -124,26 +124,26 @@ let sonido = [
   './includes/sonido/10.mp3',
 ];
 
-function muestraImg(clicked_id){   
+function muestraImg2(clicked_id) {
   //let fecha = Date();
   let parrafoNombre = document.getElementById('parrafo-Nombre');
   let parrafoDescripcion = document.getElementById('caja-Descripcion');
   let giratorio = document.getElementById('img-cuadradaGif');
-  let indiceDelBoton = botones.indexOf(clicked_id);
+  let indiceDelBoton = botones2.indexOf(clicked_id);
   let cuadradoEscenario = document.getElementById('img-cuadradaEscenario');
   let sonidoEscenario = document.getElementById('sound');
 
   //giratorio.src = "./../includes/BOTONES\ APARTADO\ ESCENARIO/MOVIMIENTO-RECTANGULO-AMARILLO.gif";
-  if(cambioAmarillo == true){
-    giratorio.src=movimientoAmarillo[1];
-    cambioAmarillo=false;
-  } else{
-    giratorio.src=movimientoAmarillo[0];
-    cambioAmarillo=true;
+  if (cambioAmarillo2 == true) {
+    giratorio.src = movimientoAmarillo2[1];
+    cambioAmarillo2 = false;
+  } else {
+    giratorio.src = movimientoAmarillo2[0];
+    cambioAmarillo2 = true;
   }
 
   cuadradoEscenario.src = escenarios[indiceDelBoton];
   sonidoEscenario.src = sonido[indiceDelBoton];
-  parrafoNombre.innerHTML = nombres[indiceDelBoton];
+  parrafoNombre.innerHTML = nombres2[indiceDelBoton];
   parrafoDescripcion.innerHTML = descripcion[indiceDelBoton];
 }
