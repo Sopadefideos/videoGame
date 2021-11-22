@@ -543,4 +543,96 @@ button img{
    );
    border-radius: 30px;
 }
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+#TituloChoque{
+    padding-top: 1%;
+    font-family: 'spider_homeregular' ;
+    font-size: 5vh;
+}
+#subTituloChoque{    
+    font-family: 'Mohave', sans-serif;
+    font-size: 1.4rem;
+}
+.subTituloChoque{    
+    font-family: 'Mohave', sans-serif;
+    font-size: 1.4rem;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#videoChoque{
+    height: 70vh;
+    margin-left: 11%;
+}
+.tresEntintado{
+    height: 100vh;
+    object-fit: cover;
+    margin: 0px;
+    padding: 0px;
+   
+}
+#unoIndicador{
+    height: 100vh;
+    object-fit: cover;
+    margin: 0px;
+    padding: 0px;
+    
 
+}
+.unoCarruselTit{
+    padding-top: 1%;
+    font-family: 'spider_homeregular' ;
+    font-size: 5vh;  
+}
+.unoSubtit{
+    font-family: 'Mohave', sans-serif;
+    font-size: 1.4rem; 
+}
+.unoletras{
+    font-family: 'Mohave', sans-serif;
+    font-size: 1.7rem; 
+}
+#TituloEntintado{
+    padding-top: 1%;
+   
+    font-family: 'spider_homeregular' ;
+    font-size: 5vh;
+}
+#subTituloEntintado{    
+    font-family: 'Mohave', sans-serif;
+    font-size: 1.4rem;
+}
+#videoEntintado{
+    height: 70vh;
+    margin-left: 11%;
+}
+
+.fill { 
+    min-height: 100%;
+    height: 100%;
+}
+
+#btn-info-mecanicas:focus img{
+    content: url(../img/botones/active/INF\ MECANICA\ PUSH.png)
+}
+#img-info-mecanicas{
+    content: url(../img/botones/normal/INF\ MECANICA.png)
+}
+#btn-info-mecanicas:focus img {
+    content: url(../img/botones/active/INF\ MECANICA\ PUSH.png);
+}
+
+#img-info-historia{
+    content: url(../img/botones/normal/HISTORIA\ NORMAL.png);
+}
+#img-info-historia{
+    content: url(../img/botones/normal/HISTORIA\ NORMAL.png)
+}
+#btn-info-historia:focus img {
+    content: url(../img/botones/active/HISTORIA\ PUSH.png);
+}
