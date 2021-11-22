@@ -82,7 +82,7 @@ let botones2 = [
 ];
 
 let nombres2 = [
-  'AFUERAS DE ESPARTA', 'JUNGLA SIN REY', 'BOCETO', 'ELYSIUM', 'ATLANTIS', "RAG'HOR", 'PRADERAS DE AURIXIA', 'CEMENTERIO NO HOPE', 'PATA DEL MONO', 'BAHÍA DEL RENEGADO'
+  'AFUERAS DE ESPARTA', 'JUNGLA SIN REY', 'BOCETO', 'ELYSIUM', 'ATLANTIS', "RAG'HUR", 'PRADERAS DE AURIXIA', 'CEMENTERIO NO HOPE', 'PATA DEL MONO', 'BAHÍA DEL RENEGADO'
 ];
 
 let escenarios = [
@@ -144,7 +144,7 @@ function muestraImg2(clicked_id) {
     cambioAmarillo2 = true;
   }
 
- 
+
 
   cuadradoEscenario.src = escenarios[indiceDelBoton];
   sonidoEscenario.src = sonido[indiceDelBoton];
