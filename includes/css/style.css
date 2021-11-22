@@ -82,6 +82,7 @@ button:active{
 
 /** Boton de Revista **/
 #img-botonRevista {
+    width: 40%;
     content: url(../img/BOTONES\ REVISTA/boton-revista.png);
 }
 #img-revista {
@@ -110,7 +111,7 @@ button:active{
 
 
 .insertCoin {
-    width: 10%;
+    width: 8%;
 }
 
 .titulo-mod{

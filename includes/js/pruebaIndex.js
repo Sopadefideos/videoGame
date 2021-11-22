@@ -170,3 +170,7 @@ fundaTarjeta1.addEventListener("mouseenter", (e) => {
     pjDiez.style.transition = "all 0.3s ease";
     pjDiez.classList.remove('overflow-visible');
   });
+
+  function prueba(){
+    alert("hola");
+  }
