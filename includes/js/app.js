@@ -82,7 +82,7 @@ let botones2 = [
 ];
 
 let nombres2 = [
-  'AFUERAS DE ESPARTA', 'JUNGLA SIN REY', 'BOCETO', 'ELYSIUM', 'ATLANTIS', "RAG'HUR", 'PRADERAS DE AURIXIA', 'CEMENTERIO NO HOPE', 'PATA DEL MONO', 'BAHÍA DEL RENEGADO'
+  'AFUERAS DE ESPARTA', 'JUNGLA SIN REY', 'BOCETO', 'ELYSIUM', 'ATLANTIS', "PATA DEL MONO (INVASIÓN XENOBITE)", 'PRADERAS DE AURIXIA', 'CEMENTERIO NO HOPE', 'PATA DEL MONO', 'BAHÍA DEL RENEGADO'
 ];
 
 let escenarios = [
@@ -104,7 +104,7 @@ let descripcion = [
   'Boceto sin terminar que parece representar un pequeño estudio, lleno de dibujos que nunca llegaron a completarse. Un aura de tristeza rodea este lugar, en el cual tanto sueños nunca llegaron a hacerse realidad.',
   'Protagonista de la futura serie de animación “Cybertopia”. Techney se trata de un pequeño ingeniero procedente de la ciudad robótica conocida como Elysium. Sus invenciones son muy conocidas en la ciudad y han ayudado en más de una ocasión al avance de la misma. Se trata de un rival muy peligroso a largas y medias distancias gracias a su capacidad para zonear a sus contrincantes fácilmente.',
   'La gran ciudad sumergida de las leyendas, siempre rodeada de misterios y eventos excepcionales. Los habitantes de la ciudad se pueden observar vigilando la zona de vez en cuando, además del resto de fauna que ha hecho los alrededores de la ciudad su hogar.',
-  'Miembro de la raza alienígena Xenobites y principal antagonista de Clark y su escuadra. Se caracteriza por su capacidad para causar grandes estragos gracias a sus tentáculos y tecnología avanzada.',
+  'Resto de la invasión Xenobite a la gran base espacial.',
   'Las grandes praderas del ilustre reino, escenario de cientos de batallas y aventuras. Caballeros, aventureros o comerciantes atraviesan estas praderas diariamente para poder acceder a Aurixia, cuyo magnífico castillo puede ser visto al horizonte.',
   'El mausoleo a lo alto de la colina sirve como puesto de vigía para mantener en raya a los diferentes fantasmas y otros seres que han hecho del cementerio su hogar. No es un lugar realmente agradable por el que ir de paseo.',
   'Base madre de la brigada primate espacial. Todas las escuadras de exploración se reúnen en esta base para descansar, informar sobre los diferentes descubrimientos durante sus aventuras y para disfrutar de unas bonitas vistas.',
